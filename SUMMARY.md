@@ -4,7 +4,7 @@
 * java学习笔记
    - java 基础
    - java 线程
-      + 线程池
+      + [线程池](java/java多线程.md)
       + ReentrantLock 实现原理
    - java 框架
       + spring 框架
