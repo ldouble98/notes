@@ -13,6 +13,6 @@
       + [springcloud](java/java框架/springcloud.md)
 * 毕业设计
    - [论文笔记](graduation/论文.md)
-* [git笔记](git/git.md)
+* [git笔记](git/gitnote.md)
 * 日常学习笔记
-   -[2019.4月第一周](dayLife/2019-4-[1-7].md) 
+   -[2019.4月第一周](dayLife/四月.md) 
