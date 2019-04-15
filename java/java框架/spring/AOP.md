@@ -9,7 +9,7 @@
 > AOP是一种思想，实现AOP的的有Spring AOP ，AspectJ
 
 # AspectJ
-
+![AOP](AOP.png)
 - Aspect 
     
      In Spring AOP, aspects are implemented by using regular classes (the schema-based approach) 
