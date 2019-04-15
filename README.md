@@ -1,10 +1,11 @@
-# small_double  创建notes
-# 开始尝试使用gitbook，markdown语言记录笔记
-    github：https://github.com/ldouble98/notes
+# java Notes
+    github：https://github.com/ldouble98
     email：leesmalldouble@gmail.com
 # java学习笔记
    - jvm
       + [类加载机制](java/jvm/类加载机制.md)
+      + [垃圾回收](java/jvm/GC.md)
+      + [JVM标准](java/jvm/jvm标准.md)
    - [java 基础](java/java基础/java基础.md)
       + [HashMap](java/java基础/HashMap.md)
       + [Set](java/java基础/Set.md)
@@ -19,8 +20,8 @@
       + [springcloud](java/java框架/springcloud.md)
    - [java面试题](java/java面试题.md)
 # 数据库
-   - [mysql索引]
-   - [SQL 优化]
+   - [mysql索引](数据库/MySQL/mysql索引.md)
+   - [SQL 优化](数据库/MySQL/SQL优化.md)
    
 # 毕业设计
    - [论文笔记](graduation/论文.md)
