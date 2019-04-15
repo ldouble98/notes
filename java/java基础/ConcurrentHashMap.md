@@ -1,6 +1,6 @@
 # ConcurrentHashMap
 
-底层利用ReentrantLock实现
+底层利用[ReentrantLock](../java线程/ReentrantLock.md)实现
 
 # jdk 1.7 实现
 
