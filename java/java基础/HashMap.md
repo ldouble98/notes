@@ -1,9 +1,38 @@
 # java 集合类
 ## Collection,collections
 ## HashMap,HashTable,Map
+> fail-fast
+
+    fail-fast机制在遍历一个集合时，当集合结构被修改，会抛出Concurrent Modification Exception。
+    
+    fail-fast会在以下两种情况下抛出ConcurrentModificationException
+    
+    （1）单线程环境
+    
+    集合被创建后，在遍历它的过程中修改了结构。
+    
+    注意 remove()方法会让expectModcount和modcount 相等，所以是不会抛出这个异常。
+    
+    （2）多线程环境
+    
+    当一个线程在遍历这个集合，而另一个线程对这个集合的结构进行了修改
+    
+> fail-safe
+    
+    fail-safe任何对集合结构的修改都会在一个复制的集合上进行修改，因此不会抛出ConcurrentModificationException
+    
+    fail-safe机制有两个问题
+    
+    （1）需要复制集合，产生大量的无效对象，开销大
+    
+    （2）无法保证读取的数据是目前原始数据结构中的数据。
+    
+
+
 HashTable 不允许存放null值 线程安全
- 
+    HashTable 是 Enmeration迭代，只能读取
 HashMap 多线程情况下要自己写同步方法 
+   HashMap 是 Iterator机制，采用fail-fast方法
 ```java
     public HashMap(int initialCapacity) {
         this(initialCapacity, 0.75F);
