@@ -15,6 +15,9 @@
       + [ReentrantLock 实现原理](java/java线程/ReentrantLock.md)
    - java 框架
       + [spring](java/java框架/spring/spring注入方式.md)
+      + [AOP](java/java框架/spring/AOP.md)
+      + [IOC](java/java框架/spring/Ioc.md)
+      + [proxy](java/java框架/spring/proxy.md)
       + [hibernate](java/java框架/hibernate.md)
       + [springboot](java/java框架/springboot.md)
       + [springcloud](java/java框架/springcloud.md)
