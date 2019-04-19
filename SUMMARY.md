@@ -2,6 +2,12 @@
 
 # [Introduction](README.md)
 # java学习笔记
+   + java并发
+      + [乐观锁与悲观锁](并发/乐观锁与悲观锁.md)
+      + [CAS](并发/CAS.md)
+      + [JUC](并发/JUC.md)
+   + 分布式
+      + [分布式事务](分布式/分布式事务.md)
    + jvm
       + [类加载机制](java/jvm/类加载机制.md)
    - [java 基础](java/java基础/java基础.md)
