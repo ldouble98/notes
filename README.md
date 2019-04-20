@@ -6,12 +6,16 @@
       + [乐观锁与悲观锁](并发/乐观锁与悲观锁.md)
       + [CAS](并发/CAS.md)
       + [JUC](并发/JUC.md)
+      + [锁](并发/锁.md)
    + 分布式
       + [分布式事务](分布式/分布式事务.md)
+      + [AQS](分布式/AQS原理.md)
+      + [网络编程](分布式/网络编程.md)
    - jvm
       + [类加载机制](java/jvm/类加载机制.md)
       + [垃圾回收](java/jvm/GC.md)
       + [JVM标准](java/jvm/jvm标准.md)
+      + [对象的创建与内存分配](java/jvm/对象的创建与内存分配.md)
    - [java 基础](java/java基础/java基础.md)
       + [HashMap](java/java基础/HashMap.md)
       + [Set](java/java基础/Set.md)

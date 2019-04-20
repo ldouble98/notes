@@ -10,6 +10,7 @@
       + [分布式事务](分布式/分布式事务.md)
    + jvm
       + [类加载机制](java/jvm/类加载机制.md)
+      + [对象的创建与内存分配](java/jvm/对象的创建与内存分配.md)
    - [java 基础](java/java基础/java基础.md)
       + [HashMap](java/java基础/HashMap.md)
       + [Set](java/java基础/Set.md)
