@@ -1,6 +1,9 @@
 # java Notes
     github：https://github.com/ldouble98
     email：leesmalldouble@gmail.com
+# 面试经验
+   -  [interview](面试经验/interview.md)
+   -  [alibaba面试题](面试经验/阿里大佬面试题.md)
 # java学习笔记
    + java并发
       + [乐观锁与悲观锁](并发/乐观锁与悲观锁.md)
@@ -43,9 +46,7 @@
    -[2019.4月](dayLife/四月.md)
 # network
    - [http请求](network/http.md)
-# 面试经验
-   -  [interview](面试经验/interview.md)
-   -  [alibaba面试题](面试经验/阿里大佬面试题.md)
+
    
 # 常用算法
    - [求n！的非零为](常见算法题/求n!的非零位.md)
