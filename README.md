@@ -9,13 +9,14 @@
       + [锁](并发/锁.md)
    + 分布式
       + [分布式事务](分布式/分布式事务.md)
-      + [AQS](分布式/AQS原理.md)
+      + [AQS](并发/AQS原理.md)
       + [网络编程](分布式/网络编程.md)
    - jvm
       + [类加载机制](java/jvm/类加载机制.md)
       + [垃圾回收](java/jvm/GC.md)
       + [JVM标准](java/jvm/jvm标准.md)
       + [对象的创建与内存分配](java/jvm/对象的创建与内存分配.md)
+      + [7种垃圾收集器](java/jvm/垃圾收集器.md)
    - [java 基础](java/java基础/java基础.md)
       + [HashMap](java/java基础/HashMap.md)
       + [Set](java/java基础/Set.md)
@@ -35,9 +36,8 @@
 # 数据库
    - [mysql索引](数据库/MySQL/mysql索引.md)
    - [SQL 优化](数据库/MySQL/SQL优化.md)
-   
-# 毕业设计
-   - [论文笔记](graduation/论文.md)
+   - [幂等性](数据库/幂等性.md)
+  
 # [git笔记](git/gitnote.md)
 # 日常学习笔记
    -[2019.4月](dayLife/四月.md)
@@ -45,6 +45,7 @@
    - [http请求](network/http.md)
 # 面试经验
    -  [interview](面试经验/interview.md)
+   -  [alibaba面试题](面试经验/阿里大佬面试题.md)
    
 # 常用算法
    - [求n！的非零为](常见算法题/求n!的非零位.md)
