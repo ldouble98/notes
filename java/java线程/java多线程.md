@@ -106,6 +106,15 @@
         };
         thread2.start();
 	}
-}
+
 ```
+# 《java多线程核心技术》阅读笔记
+
+1 this.interrupted() :测试当前线程是否已经是中断状态,
+执行后具有将状态标志置清除为 false 的功能。
+
+2 this.isInterrupted() :测试线程 Thread 对象是否已经
+是中断状态,但不清除状态标志
+
+    
 

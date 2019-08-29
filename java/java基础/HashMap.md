@@ -11,7 +11,7 @@
     
     集合被创建后，在遍历它的过程中修改了结构。
     
-    注意 remove()方法会让expectModcount和modcount 相等，所以是不会抛出这个异常。
+    注意 Iteratore 的remove()方法会让expectModcount和modcount 相等，所以是不会抛出这个异常。
     
     （2）多线程环境
     

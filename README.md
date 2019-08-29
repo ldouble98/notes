@@ -1,65 +1,29 @@
-# java Notes
-    github：https://github.com/ldouble98
-    email：leesmalldouble@gmail.com
-# 面试经验
-   -  [interview](面试经验/interview.md)
-   -  [alibaba面试题](面试经验/阿里大佬面试题.md)
-# java学习笔记
-   + java并发
-      + [乐观锁与悲观锁](并发/乐观锁与悲观锁.md)
-      + [CAS](并发/CAS.md)
-      + [JUC](并发/JUC.md)
-      + [锁](并发/锁.md)
-   + 分布式
-      + [分布式事务](分布式/分布式事务.md)
-      + [AQS](并发/AQS原理.md)
-      + [网络编程](分布式/网络编程.md)
-   - jvm
-      + [类加载机制](java/jvm/类加载机制.md)
-      + [垃圾回收](java/jvm/GC.md)
-      + [JVM标准](java/jvm/jvm标准.md)
-      + [对象的创建与内存分配](java/jvm/对象的创建与内存分配.md)
-      + [7种垃圾收集器](java/jvm/垃圾收集器.md)
-   - [java 基础](java/java基础/java基础.md)
-      + [HashMap](java/java基础/HashMap.md)
-      + [Set](java/java基础/Set.md)
-      + [List](java/java基础/List.md)
-   - java 线程
-      + [线程池](java/java线程/java多线程.md)
-      + [ReentrantLock 实现原理](java/java线程/ReentrantLock.md)
-   - java 框架
-      + [spring](java/java框架/spring/spring注入方式.md)
-      + [AOP](java/java框架/spring/AOP.md)
-      + [IOC](java/java框架/spring/Ioc.md)
-      + [proxy](java/java框架/spring/proxy.md)
-      + [hibernate](java/java框架/hibernate.md)
-      + [springboot](java/java框架/springboot.md)
-      + [springcloud](java/java框架/springcloud.md)
-   - [java面试题](java/java面试题.md)
-# 数据库
-   - [mysql索引](数据库/MySQL/mysql索引.md)
-   - [SQL 优化](数据库/MySQL/SQL优化.md)
-   - [幂等性](数据库/幂等性.md)
-  
-# [git笔记](git/gitnote.md)
-# 日常学习笔记
-   -[2019.4月](dayLife/四月.md)
-# network
-   - [http请求](network/http.md)
+### java学习笔记 leeSmallDouble
 
-   
-# 常用算法
-   - [求n！的非零为](常见算法题/求n!的非零位.md)
-   - [三线程交替打印ABC](常见算法题/三线程交替打印ABC.java)
-   - [两个栈实现队列](常见算法题/两个栈来实现一个队列.java)
-   - [二叉树的镜像](常见算法题/二叉树的镜像.java)
-   - [交替打印](常见算法题/交替打印.java)
-   - [翻转链表](常见算法题/反转链表.java)
-   - [树的子结构](常见算法题/树的子结构.java)
-   - [斐波那契数列](常见算法题/斐波那契数列.java)
-   - [链表中倒数第K个节点](常见算法题/链表中倒数第k个结点.java)
-   - [链表合并](常见算法题/链表合并.java)
-   - [顺时针打印矩阵](常见算法题/顺时针打印矩阵.java)
-   - [青蛙跳台阶1](常见算法题/青蛙跳台阶.java)
-   - [青蛙跳台阶2](常见算法题/青蛙跳台阶2.java)
+> 想去的地方很远，想要的东西很贵，喜欢的人很优秀，加油！李小双。YOU ARE ONLY ONE
+
+     创建于2019-4-17
+     用于java学习笔记使用
+     
+     大体分为以下几部分：
+         citicbank
+         多线程与并发
+         消息队列
+         分布式
+         jvm
+         spring框架
+         数据库
+         面试总结
+         周、月、季、年总结
+
+
+
+![ad](introduce.jpg)
+
+         
+ 
+
+    
+
+
  

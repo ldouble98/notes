@@ -1,2 +1,5 @@
 ffmpeg -i 　yourVidioName.avi　　yourVidioName.mp4 视频处理
 touch filename  创建文件
+
+
+mysql -u root -p 连接数据库
