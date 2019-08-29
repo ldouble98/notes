@@ -18,7 +18,6 @@
 
 
 
-![ad](introduce.jpg)
 
          
  
