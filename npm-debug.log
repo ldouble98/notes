@@ -1,0 +1,2813 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'gitbook-pdf', '-g' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData gitbook-pdf
+8 silly fetchNamedPackageData gitbook-pdf
+9 silly mapToRegistry name gitbook-pdf
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/gitbook-pdf
+13 verbose request uri https://registry.npmjs.org/gitbook-pdf
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 1:44:32 PM
+16 verbose request id db647aef8470bb42
+17 verbose etag W/"78db237785583995f08a3a84b69ff362"
+18 verbose lastModified Sun, 27 May 2018 02:20:15 GMT
+19 http request GET https://registry.npmjs.org/gitbook-pdf
+20 http 304 https://registry.npmjs.org/gitbook-pdf
+21 verbose headers { date: 'Thu, 29 Aug 2019 05:44:33 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=da306b2e80fadec800be501df1ab2deb11567057473; expires=Fri, 28-Aug-20 05:44:33 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-ray': '50dc36bb4c179833-LAX',
+21 verbose headers   age: '1374',
+21 verbose headers   etag: '"78db237785583995f08a3a84b69ff362"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Sun, 27 May 2018 02:20:15 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 29 Aug 2019 05:44:33 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=da306b2e80fadec800be501df1ab2deb11567057473; expires=Fri, 28-Aug-20 05:44:33 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-ray': '50dc36bb4c179833-LAX',
+22 silly get     age: '1374',
+22 silly get     etag: '"78db237785583995f08a3a84b69ff362"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Sun, 27 May 2018 02:20:15 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/gitbook-pdf from cache
+24 verbose get saving gitbook-pdf to /home/lxs/.npm/registry.npmjs.org/gitbook-pdf/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule gitbook-pdf@0.0.2 checking installable status
+38 silly cache add args [ 'gitbook-pdf', null ]
+39 verbose cache add spec gitbook-pdf
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'gitbook-pdf',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'gitbook-pdf',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed gitbook-pdf@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for gitbook-pdf
+43 info addNameTag [ 'gitbook-pdf', 'latest' ]
+44 silly mapToRegistry name gitbook-pdf
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/gitbook-pdf
+48 verbose addNameTag registry:https://registry.npmjs.org/gitbook-pdf not in flight; fetching
+49 verbose get https://registry.npmjs.org/gitbook-pdf not expired, no request
+50 silly addNameTag next cb for gitbook-pdf with tag latest
+51 silly addNamed gitbook-pdf@0.0.2
+52 verbose addNamed "0.0.2" is a plain semver version for gitbook-pdf
+53 silly cache afterAdd gitbook-pdf@0.0.2
+54 verbose afterAdd /home/lxs/.npm/gitbook-pdf/0.0.2/package/package.json not in flight; writing
+55 verbose afterAdd /home/lxs/.npm/gitbook-pdf/0.0.2/package/package.json written
+56 silly fetchNamedPackageData q
+57 silly mapToRegistry name q
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/q
+61 silly fetchNamedPackageData lodash
+62 silly mapToRegistry name lodash
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/lodash
+66 silly fetchNamedPackageData commander
+67 silly mapToRegistry name commander
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/commander
+71 silly fetchNamedPackageData phantomjs
+72 silly mapToRegistry name phantomjs
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+76 verbose request uri https://registry.npmjs.org/q
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 1:44:34 PM
+79 verbose etag W/"8e6546acef4e2e22011f9038c4e08973"
+80 verbose lastModified Fri, 03 Aug 2018 00:34:20 GMT
+81 http request GET https://registry.npmjs.org/q
+82 verbose request uri https://registry.npmjs.org/phantomjs
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 1:44:34 PM
+85 verbose etag W/"517eeae773f1ccb1795dcc30240b7b94"
+86 verbose lastModified Wed, 20 Feb 2019 20:01:11 GMT
+87 http request GET https://registry.npmjs.org/phantomjs
+88 verbose request uri https://registry.npmjs.org/commander
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 1:44:34 PM
+91 verbose etag W/"bae65113b54692a3c630816b728ec76f"
+92 verbose lastModified Sat, 10 Aug 2019 00:49:23 GMT
+93 http request GET https://registry.npmjs.org/commander
+94 verbose request uri https://registry.npmjs.org/lodash
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 1:44:34 PM
+97 verbose etag W/"6c46b20b79c0e321a253cefd2ec439f0"
+98 verbose lastModified Sat, 17 Aug 2019 15:27:37 GMT
+99 http request GET https://registry.npmjs.org/lodash
+100 http 304 https://registry.npmjs.org/q
+101 verbose headers { date: 'Thu, 29 Aug 2019 05:44:34 GMT',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'set-cookie':
+101 verbose headers    [ '__cfduid=d5fb707a05a63345fd81bc1aa9dbcabbb1567057474; expires=Fri, 28-Aug-20 05:44:34 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+101 verbose headers   'cf-cache-status': 'HIT',
+101 verbose headers   'cache-control': 'max-age=300',
+101 verbose headers   'cf-ray': '50dc36c17ce59833-LAX',
+101 verbose headers   age: '6179',
+101 verbose headers   etag: '"8e6546acef4e2e22011f9038c4e08973"',
+101 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+101 verbose headers   'last-modified': 'Fri, 03 Aug 2018 00:34:20 GMT',
+101 verbose headers   vary: 'accept-encoding, accept',
+101 verbose headers   server: 'cloudflare' }
+102 silly get cb [ 304,
+102 silly get   { date: 'Thu, 29 Aug 2019 05:44:34 GMT',
+102 silly get     connection: 'keep-alive',
+102 silly get     'set-cookie':
+102 silly get      [ '__cfduid=d5fb707a05a63345fd81bc1aa9dbcabbb1567057474; expires=Fri, 28-Aug-20 05:44:34 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+102 silly get     'cf-cache-status': 'HIT',
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     'cf-ray': '50dc36c17ce59833-LAX',
+102 silly get     age: '6179',
+102 silly get     etag: '"8e6546acef4e2e22011f9038c4e08973"',
+102 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+102 silly get     'last-modified': 'Fri, 03 Aug 2018 00:34:20 GMT',
+102 silly get     vary: 'accept-encoding, accept',
+102 silly get     server: 'cloudflare' } ]
+103 verbose etag https://registry.npmjs.org/q from cache
+104 verbose get saving q to /home/lxs/.npm/registry.npmjs.org/q/.cache.json
+105 silly resolveWithNewModule q@1.0.1 checking installable status
+106 silly cache add args [ 'q@1.0.1', null ]
+107 verbose cache add spec q@1.0.1
+108 silly cache add parsed spec Result {
+108 silly cache add   raw: 'q@1.0.1',
+108 silly cache add   scope: null,
+108 silly cache add   name: 'q',
+108 silly cache add   rawSpec: '1.0.1',
+108 silly cache add   spec: '1.0.1',
+108 silly cache add   type: 'version' }
+109 silly addNamed q@1.0.1
+110 verbose addNamed "1.0.1" is a plain semver version for q
+111 silly mapToRegistry name q
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/q
+115 verbose addNameVersion registry:https://registry.npmjs.org/q not in flight; fetching
+116 verbose get https://registry.npmjs.org/q not expired, no request
+117 silly cache afterAdd q@1.0.1
+118 verbose afterAdd /home/lxs/.npm/q/1.0.1/package/package.json not in flight; writing
+119 verbose afterAdd /home/lxs/.npm/q/1.0.1/package/package.json written
+120 http 304 https://registry.npmjs.org/commander
+121 verbose headers { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'set-cookie':
+121 verbose headers    [ '__cfduid=d4e26e02b7c1c6680274a3e79f1c175021567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+121 verbose headers   'cf-cache-status': 'HIT',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   'cf-ray': '50dc36c37b535382-LAX',
+121 verbose headers   age: '883',
+121 verbose headers   etag: '"bae65113b54692a3c630816b728ec76f"',
+121 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+121 verbose headers   'last-modified': 'Sat, 10 Aug 2019 00:49:23 GMT',
+121 verbose headers   vary: 'accept-encoding, accept',
+121 verbose headers   'x-amz-meta-rev': '1327-9a382c2318e838b20f56297caf6a8e71',
+121 verbose headers   server: 'cloudflare' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+122 silly get     connection: 'keep-alive',
+122 silly get     'set-cookie':
+122 silly get      [ '__cfduid=d4e26e02b7c1c6680274a3e79f1c175021567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+122 silly get     'cf-cache-status': 'HIT',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     'cf-ray': '50dc36c37b535382-LAX',
+122 silly get     age: '883',
+122 silly get     etag: '"bae65113b54692a3c630816b728ec76f"',
+122 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+122 silly get     'last-modified': 'Sat, 10 Aug 2019 00:49:23 GMT',
+122 silly get     vary: 'accept-encoding, accept',
+122 silly get     'x-amz-meta-rev': '1327-9a382c2318e838b20f56297caf6a8e71',
+122 silly get     server: 'cloudflare' } ]
+123 verbose etag https://registry.npmjs.org/commander from cache
+124 verbose get saving commander to /home/lxs/.npm/registry.npmjs.org/commander/.cache.json
+125 silly resolveWithNewModule commander@2.2.0 checking installable status
+126 silly cache add args [ 'commander@2.2.0', null ]
+127 verbose cache add spec commander@2.2.0
+128 silly cache add parsed spec Result {
+128 silly cache add   raw: 'commander@2.2.0',
+128 silly cache add   scope: null,
+128 silly cache add   name: 'commander',
+128 silly cache add   rawSpec: '2.2.0',
+128 silly cache add   spec: '2.2.0',
+128 silly cache add   type: 'version' }
+129 silly addNamed commander@2.2.0
+130 verbose addNamed "2.2.0" is a plain semver version for commander
+131 silly mapToRegistry name commander
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry uri https://registry.npmjs.org/commander
+135 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+136 verbose get https://registry.npmjs.org/commander not expired, no request
+137 silly cache afterAdd commander@2.2.0
+138 verbose afterAdd /home/lxs/.npm/commander/2.2.0/package/package.json not in flight; writing
+139 verbose afterAdd /home/lxs/.npm/commander/2.2.0/package/package.json written
+140 http 304 https://registry.npmjs.org/lodash
+141 verbose headers { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'set-cookie':
+141 verbose headers    [ '__cfduid=dc4cdae0311a3f286a8b66c1b827e7c031567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+141 verbose headers   'cf-cache-status': 'HIT',
+141 verbose headers   'cache-control': 'max-age=300',
+141 verbose headers   'cf-ray': '50dc36c37e9b76c2-LAX',
+141 verbose headers   age: '6522',
+141 verbose headers   etag: '"6c46b20b79c0e321a253cefd2ec439f0"',
+141 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+141 verbose headers   'last-modified': 'Sat, 17 Aug 2019 15:27:37 GMT',
+141 verbose headers   vary: 'accept-encoding, accept',
+141 verbose headers   'x-amz-meta-rev': '2482-984ce15920192139a516838c93c9bafe',
+141 verbose headers   server: 'cloudflare' }
+142 silly get cb [ 304,
+142 silly get   { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+142 silly get     connection: 'keep-alive',
+142 silly get     'set-cookie':
+142 silly get      [ '__cfduid=dc4cdae0311a3f286a8b66c1b827e7c031567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+142 silly get     'cf-cache-status': 'HIT',
+142 silly get     'cache-control': 'max-age=300',
+142 silly get     'cf-ray': '50dc36c37e9b76c2-LAX',
+142 silly get     age: '6522',
+142 silly get     etag: '"6c46b20b79c0e321a253cefd2ec439f0"',
+142 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+142 silly get     'last-modified': 'Sat, 17 Aug 2019 15:27:37 GMT',
+142 silly get     vary: 'accept-encoding, accept',
+142 silly get     'x-amz-meta-rev': '2482-984ce15920192139a516838c93c9bafe',
+142 silly get     server: 'cloudflare' } ]
+143 verbose etag https://registry.npmjs.org/lodash from cache
+144 verbose get saving lodash to /home/lxs/.npm/registry.npmjs.org/lodash/.cache.json
+145 silly resolveWithNewModule lodash@2.4.1 checking installable status
+146 silly cache add args [ 'lodash@2.4.1', null ]
+147 verbose cache add spec lodash@2.4.1
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'lodash@2.4.1',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'lodash',
+148 silly cache add   rawSpec: '2.4.1',
+148 silly cache add   spec: '2.4.1',
+148 silly cache add   type: 'version' }
+149 silly addNamed lodash@2.4.1
+150 verbose addNamed "2.4.1" is a plain semver version for lodash
+151 silly mapToRegistry name lodash
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/lodash
+155 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+156 verbose get https://registry.npmjs.org/lodash not expired, no request
+157 silly cache afterAdd lodash@2.4.1
+158 verbose afterAdd /home/lxs/.npm/lodash/2.4.1/package/package.json not in flight; writing
+159 verbose afterAdd /home/lxs/.npm/lodash/2.4.1/package/package.json written
+160 http 304 https://registry.npmjs.org/phantomjs
+161 verbose headers { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'set-cookie':
+161 verbose headers    [ '__cfduid=da7a7e4be6b9df3f730bad1cf1808456b1567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+161 verbose headers   'cf-cache-status': 'HIT',
+161 verbose headers   'cache-control': 'max-age=300',
+161 verbose headers   'cf-ray': '50dc36c3bec3d372-LAX',
+161 verbose headers   age: '5942',
+161 verbose headers   etag: '"517eeae773f1ccb1795dcc30240b7b94"',
+161 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+161 verbose headers   'last-modified': 'Wed, 20 Feb 2019 20:01:11 GMT',
+161 verbose headers   vary: 'accept-encoding, accept',
+161 verbose headers   'x-amz-meta-rev': '390-dd0aeb810fe19fbfa4762633670af981',
+161 verbose headers   server: 'cloudflare' }
+162 silly get cb [ 304,
+162 silly get   { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+162 silly get     connection: 'keep-alive',
+162 silly get     'set-cookie':
+162 silly get      [ '__cfduid=da7a7e4be6b9df3f730bad1cf1808456b1567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+162 silly get     'cf-cache-status': 'HIT',
+162 silly get     'cache-control': 'max-age=300',
+162 silly get     'cf-ray': '50dc36c3bec3d372-LAX',
+162 silly get     age: '5942',
+162 silly get     etag: '"517eeae773f1ccb1795dcc30240b7b94"',
+162 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+162 silly get     'last-modified': 'Wed, 20 Feb 2019 20:01:11 GMT',
+162 silly get     vary: 'accept-encoding, accept',
+162 silly get     'x-amz-meta-rev': '390-dd0aeb810fe19fbfa4762633670af981',
+162 silly get     server: 'cloudflare' } ]
+163 verbose etag https://registry.npmjs.org/phantomjs from cache
+164 verbose get saving phantomjs to /home/lxs/.npm/registry.npmjs.org/phantomjs/.cache.json
+165 silly resolveWithNewModule phantomjs@1.9.7-5 checking installable status
+166 silly cache add args [ 'phantomjs@1.9.7-5', null ]
+167 verbose cache add spec phantomjs@1.9.7-5
+168 silly cache add parsed spec Result {
+168 silly cache add   raw: 'phantomjs@1.9.7-5',
+168 silly cache add   scope: null,
+168 silly cache add   name: 'phantomjs',
+168 silly cache add   rawSpec: '1.9.7-5',
+168 silly cache add   spec: '1.9.7-5',
+168 silly cache add   type: 'version' }
+169 silly addNamed phantomjs@1.9.7-5
+170 verbose addNamed "1.9.7-5" is a plain semver version for phantomjs
+171 silly mapToRegistry name phantomjs
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+175 verbose addNameVersion registry:https://registry.npmjs.org/phantomjs not in flight; fetching
+176 verbose get https://registry.npmjs.org/phantomjs not expired, no request
+177 silly cache afterAdd phantomjs@1.9.7-5
+178 verbose afterAdd /home/lxs/.npm/phantomjs/1.9.7-5/package/package.json not in flight; writing
+179 verbose afterAdd /home/lxs/.npm/phantomjs/1.9.7-5/package/package.json written
+180 silly fetchNamedPackageData adm-zip
+181 silly mapToRegistry name adm-zip
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/adm-zip
+185 silly fetchNamedPackageData kew
+186 silly mapToRegistry name kew
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry uri https://registry.npmjs.org/kew
+190 silly fetchNamedPackageData ncp
+191 silly mapToRegistry name ncp
+192 silly mapToRegistry using default registry
+193 silly mapToRegistry registry https://registry.npmjs.org/
+194 silly mapToRegistry uri https://registry.npmjs.org/ncp
+195 silly fetchNamedPackageData npmconf
+196 silly mapToRegistry name npmconf
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry uri https://registry.npmjs.org/npmconf
+200 silly fetchNamedPackageData mkdirp
+201 silly mapToRegistry name mkdirp
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+205 silly fetchNamedPackageData rimraf
+206 silly mapToRegistry name rimraf
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+210 silly fetchNamedPackageData which
+211 silly mapToRegistry name which
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry uri https://registry.npmjs.org/which
+215 verbose request uri https://registry.npmjs.org/ncp
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 1:44:35 PM
+218 verbose etag W/"838882993198897853e1e583509fffe3"
+219 verbose lastModified Fri, 04 Jan 2019 21:30:27 GMT
+220 http request GET https://registry.npmjs.org/ncp
+221 verbose request uri https://registry.npmjs.org/kew
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 1:44:35 PM
+224 verbose etag W/"417046a6f94dc43a5fc98d75a5ac5a17"
+225 verbose lastModified Wed, 20 Feb 2019 20:01:04 GMT
+226 http request GET https://registry.npmjs.org/kew
+227 verbose request uri https://registry.npmjs.org/npmconf
+228 verbose request no auth needed
+229 info attempt registry request try #1 at 1:44:35 PM
+230 verbose etag W/"222cafe95f079fb2d5a4be21c070cecc"
+231 verbose lastModified Fri, 09 Aug 2019 06:17:13 GMT
+232 http request GET https://registry.npmjs.org/npmconf
+233 verbose request uri https://registry.npmjs.org/mkdirp
+234 verbose request no auth needed
+235 info attempt registry request try #1 at 1:44:35 PM
+236 verbose etag W/"8fdcd09d1fddb060f7769b36566bce53"
+237 verbose lastModified Fri, 12 Jul 2019 00:12:42 GMT
+238 http request GET https://registry.npmjs.org/mkdirp
+239 verbose request uri https://registry.npmjs.org/which
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 1:44:35 PM
+242 verbose etag W/"a3c45d3614c726e98569d7e80cebe59c"
+243 verbose lastModified Mon, 04 Mar 2019 08:42:31 GMT
+244 http request GET https://registry.npmjs.org/which
+245 verbose request uri https://registry.npmjs.org/rimraf
+246 verbose request no auth needed
+247 info attempt registry request try #1 at 1:44:35 PM
+248 verbose etag W/"29d8f838e5251bdaf55cd4ec74bf25f5"
+249 verbose lastModified Wed, 14 Aug 2019 18:12:46 GMT
+250 http request GET https://registry.npmjs.org/rimraf
+251 verbose request uri https://registry.npmjs.org/adm-zip
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 1:44:35 PM
+254 verbose etag W/"fed2a79269158ccc9fa9080a77392bbb"
+255 verbose lastModified Thu, 03 Jan 2019 09:32:42 GMT
+256 http request GET https://registry.npmjs.org/adm-zip
+257 http 304 https://registry.npmjs.org/kew
+258 verbose headers { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+258 verbose headers   connection: 'keep-alive',
+258 verbose headers   'set-cookie':
+258 verbose headers    [ '__cfduid=d4e26e02b7c1c6680274a3e79f1c175021567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+258 verbose headers   'cf-cache-status': 'HIT',
+258 verbose headers   'cache-control': 'max-age=300',
+258 verbose headers   'cf-ray': '50dc36c87f415382-LAX',
+258 verbose headers   age: '3369',
+258 verbose headers   etag: '"417046a6f94dc43a5fc98d75a5ac5a17"',
+258 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+258 verbose headers   'last-modified': 'Wed, 20 Feb 2019 20:01:04 GMT',
+258 verbose headers   vary: 'accept-encoding, accept',
+258 verbose headers   'x-amz-meta-rev': '93-3bfdda17bea4225c390ae978e92731b2',
+258 verbose headers   server: 'cloudflare' }
+259 silly get cb [ 304,
+259 silly get   { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+259 silly get     connection: 'keep-alive',
+259 silly get     'set-cookie':
+259 silly get      [ '__cfduid=d4e26e02b7c1c6680274a3e79f1c175021567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+259 silly get     'cf-cache-status': 'HIT',
+259 silly get     'cache-control': 'max-age=300',
+259 silly get     'cf-ray': '50dc36c87f415382-LAX',
+259 silly get     age: '3369',
+259 silly get     etag: '"417046a6f94dc43a5fc98d75a5ac5a17"',
+259 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+259 silly get     'last-modified': 'Wed, 20 Feb 2019 20:01:04 GMT',
+259 silly get     vary: 'accept-encoding, accept',
+259 silly get     'x-amz-meta-rev': '93-3bfdda17bea4225c390ae978e92731b2',
+259 silly get     server: 'cloudflare' } ]
+260 verbose etag https://registry.npmjs.org/kew from cache
+261 verbose get saving kew to /home/lxs/.npm/registry.npmjs.org/kew/.cache.json
+262 silly resolveWithNewModule kew@0.1.7 checking installable status
+263 silly cache add args [ 'kew@~0.1.7', null ]
+264 verbose cache add spec kew@~0.1.7
+265 silly cache add parsed spec Result {
+265 silly cache add   raw: 'kew@~0.1.7',
+265 silly cache add   scope: null,
+265 silly cache add   name: 'kew',
+265 silly cache add   rawSpec: '~0.1.7',
+265 silly cache add   spec: '>=0.1.7 <0.2.0',
+265 silly cache add   type: 'range' }
+266 silly addNamed kew@>=0.1.7 <0.2.0
+267 verbose addNamed ">=0.1.7 <0.2.0" is a valid semver range for kew
+268 silly addNameRange { name: 'kew', range: '>=0.1.7 <0.2.0', hasData: false }
+269 silly mapToRegistry name kew
+270 silly mapToRegistry using default registry
+271 silly mapToRegistry registry https://registry.npmjs.org/
+272 silly mapToRegistry uri https://registry.npmjs.org/kew
+273 verbose addNameRange registry:https://registry.npmjs.org/kew not in flight; fetching
+274 verbose get https://registry.npmjs.org/kew not expired, no request
+275 silly addNameRange number 2 { name: 'kew', range: '>=0.1.7 <0.2.0', hasData: true }
+276 silly addNameRange versions [ 'kew',
+276 silly addNameRange   [ '0.0.1',
+276 silly addNameRange     '0.0.2',
+276 silly addNameRange     '0.0.3',
+276 silly addNameRange     '0.0.4',
+276 silly addNameRange     '0.1.0',
+276 silly addNameRange     '0.1.1',
+276 silly addNameRange     '0.1.2',
+276 silly addNameRange     '0.1.3',
+276 silly addNameRange     '0.1.4',
+276 silly addNameRange     '0.1.5',
+276 silly addNameRange     '0.1.6',
+276 silly addNameRange     '0.1.7',
+276 silly addNameRange     '0.2.1',
+276 silly addNameRange     '0.2.2',
+276 silly addNameRange     '0.3.0',
+276 silly addNameRange     '0.3.1',
+276 silly addNameRange     '0.3.2',
+276 silly addNameRange     '0.3.3',
+276 silly addNameRange     '0.3.4',
+276 silly addNameRange     '0.4.0',
+276 silly addNameRange     '0.5.0-alpha',
+276 silly addNameRange     '0.5.0-alpha.1',
+276 silly addNameRange     '0.5.0',
+276 silly addNameRange     '0.6.0',
+276 silly addNameRange     '0.7.0' ] ]
+277 silly addNamed kew@0.1.7
+278 verbose addNamed "0.1.7" is a plain semver version for kew
+279 silly cache afterAdd kew@0.1.7
+280 verbose afterAdd /home/lxs/.npm/kew/0.1.7/package/package.json not in flight; writing
+281 verbose afterAdd /home/lxs/.npm/kew/0.1.7/package/package.json written
+282 http 304 https://registry.npmjs.org/ncp
+283 verbose headers { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+283 verbose headers   connection: 'keep-alive',
+283 verbose headers   'set-cookie':
+283 verbose headers    [ '__cfduid=d71da34f066131e0a4c0838fb3cb32da41567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+283 verbose headers   'cf-cache-status': 'HIT',
+283 verbose headers   'cache-control': 'max-age=300',
+283 verbose headers   'cf-ray': '50dc36c87f099833-LAX',
+283 verbose headers   age: '5383',
+283 verbose headers   etag: '"838882993198897853e1e583509fffe3"',
+283 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+283 verbose headers   'last-modified': 'Fri, 04 Jan 2019 21:30:27 GMT',
+283 verbose headers   vary: 'accept-encoding, accept',
+283 verbose headers   'x-amz-meta-rev': '154-46f577ff12e2eaf2acc2bf4aba8ad9c8',
+283 verbose headers   server: 'cloudflare' }
+284 silly get cb [ 304,
+284 silly get   { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+284 silly get     connection: 'keep-alive',
+284 silly get     'set-cookie':
+284 silly get      [ '__cfduid=d71da34f066131e0a4c0838fb3cb32da41567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+284 silly get     'cf-cache-status': 'HIT',
+284 silly get     'cache-control': 'max-age=300',
+284 silly get     'cf-ray': '50dc36c87f099833-LAX',
+284 silly get     age: '5383',
+284 silly get     etag: '"838882993198897853e1e583509fffe3"',
+284 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 silly get     'last-modified': 'Fri, 04 Jan 2019 21:30:27 GMT',
+284 silly get     vary: 'accept-encoding, accept',
+284 silly get     'x-amz-meta-rev': '154-46f577ff12e2eaf2acc2bf4aba8ad9c8',
+284 silly get     server: 'cloudflare' } ]
+285 verbose etag https://registry.npmjs.org/ncp from cache
+286 verbose get saving ncp to /home/lxs/.npm/registry.npmjs.org/ncp/.cache.json
+287 silly resolveWithNewModule ncp@0.4.2 checking installable status
+288 silly cache add args [ 'ncp@0.4.2', null ]
+289 verbose cache add spec ncp@0.4.2
+290 silly cache add parsed spec Result {
+290 silly cache add   raw: 'ncp@0.4.2',
+290 silly cache add   scope: null,
+290 silly cache add   name: 'ncp',
+290 silly cache add   rawSpec: '0.4.2',
+290 silly cache add   spec: '0.4.2',
+290 silly cache add   type: 'version' }
+291 silly addNamed ncp@0.4.2
+292 verbose addNamed "0.4.2" is a plain semver version for ncp
+293 silly mapToRegistry name ncp
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/ncp
+297 verbose addNameVersion registry:https://registry.npmjs.org/ncp not in flight; fetching
+298 verbose get https://registry.npmjs.org/ncp not expired, no request
+299 silly cache afterAdd ncp@0.4.2
+300 verbose afterAdd /home/lxs/.npm/ncp/0.4.2/package/package.json not in flight; writing
+301 verbose afterAdd /home/lxs/.npm/ncp/0.4.2/package/package.json written
+302 http 304 https://registry.npmjs.org/which
+303 verbose headers { date: 'Thu, 29 Aug 2019 05:44:36 GMT',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'set-cookie':
+303 verbose headers    [ '__cfduid=de29760f8524a5a20201c99bf07dfab731567057476; expires=Fri, 28-Aug-20 05:44:36 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+303 verbose headers   'cf-cache-status': 'HIT',
+303 verbose headers   'cache-control': 'max-age=300',
+303 verbose headers   'cf-ray': '50dc36ca8d61d356-LAX',
+303 verbose headers   age: '2405',
+303 verbose headers   etag: '"a3c45d3614c726e98569d7e80cebe59c"',
+303 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+303 verbose headers   'last-modified': 'Mon, 04 Mar 2019 08:42:31 GMT',
+303 verbose headers   vary: 'accept-encoding, accept',
+303 verbose headers   'x-amz-meta-rev': '69-c2183082be57a65868fc1c1757225fda',
+303 verbose headers   server: 'cloudflare' }
+304 silly get cb [ 304,
+304 silly get   { date: 'Thu, 29 Aug 2019 05:44:36 GMT',
+304 silly get     connection: 'keep-alive',
+304 silly get     'set-cookie':
+304 silly get      [ '__cfduid=de29760f8524a5a20201c99bf07dfab731567057476; expires=Fri, 28-Aug-20 05:44:36 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+304 silly get     'cf-cache-status': 'HIT',
+304 silly get     'cache-control': 'max-age=300',
+304 silly get     'cf-ray': '50dc36ca8d61d356-LAX',
+304 silly get     age: '2405',
+304 silly get     etag: '"a3c45d3614c726e98569d7e80cebe59c"',
+304 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+304 silly get     'last-modified': 'Mon, 04 Mar 2019 08:42:31 GMT',
+304 silly get     vary: 'accept-encoding, accept',
+304 silly get     'x-amz-meta-rev': '69-c2183082be57a65868fc1c1757225fda',
+304 silly get     server: 'cloudflare' } ]
+305 verbose etag https://registry.npmjs.org/which from cache
+306 verbose get saving which to /home/lxs/.npm/registry.npmjs.org/which/.cache.json
+307 silly resolveWithNewModule which@1.0.9 checking installable status
+308 silly cache add args [ 'which@~1.0.5', null ]
+309 verbose cache add spec which@~1.0.5
+310 silly cache add parsed spec Result {
+310 silly cache add   raw: 'which@~1.0.5',
+310 silly cache add   scope: null,
+310 silly cache add   name: 'which',
+310 silly cache add   rawSpec: '~1.0.5',
+310 silly cache add   spec: '>=1.0.5 <1.1.0',
+310 silly cache add   type: 'range' }
+311 silly addNamed which@>=1.0.5 <1.1.0
+312 verbose addNamed ">=1.0.5 <1.1.0" is a valid semver range for which
+313 silly addNameRange { name: 'which', range: '>=1.0.5 <1.1.0', hasData: false }
+314 silly mapToRegistry name which
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry uri https://registry.npmjs.org/which
+318 verbose addNameRange registry:https://registry.npmjs.org/which not in flight; fetching
+319 verbose get https://registry.npmjs.org/which not expired, no request
+320 silly addNameRange number 2 { name: 'which', range: '>=1.0.5 <1.1.0', hasData: true }
+321 silly addNameRange versions [ 'which',
+321 silly addNameRange   [ '1.0.0',
+321 silly addNameRange     '1.0.1',
+321 silly addNameRange     '1.0.2',
+321 silly addNameRange     '1.0.3',
+321 silly addNameRange     '1.0.5',
+321 silly addNameRange     '1.0.6',
+321 silly addNameRange     '1.0.7',
+321 silly addNameRange     '1.0.8',
+321 silly addNameRange     '1.0.9',
+321 silly addNameRange     '1.1.0',
+321 silly addNameRange     '1.1.1',
+321 silly addNameRange     '1.1.2',
+321 silly addNameRange     '1.2.0',
+321 silly addNameRange     '1.2.1',
+321 silly addNameRange     '1.2.4',
+321 silly addNameRange     '1.2.5',
+321 silly addNameRange     '1.2.6',
+321 silly addNameRange     '1.2.7',
+321 silly addNameRange     '1.2.8',
+321 silly addNameRange     '1.2.9',
+321 silly addNameRange     '1.2.10',
+321 silly addNameRange     '1.2.11',
+321 silly addNameRange     '1.2.12',
+321 silly addNameRange     '1.2.13',
+321 silly addNameRange     '1.2.14',
+321 silly addNameRange     '1.3.0',
+321 silly addNameRange     '1.3.1' ] ]
+322 silly addNamed which@1.0.9
+323 verbose addNamed "1.0.9" is a plain semver version for which
+324 silly cache afterAdd which@1.0.9
+325 verbose afterAdd /home/lxs/.npm/which/1.0.9/package/package.json not in flight; writing
+326 verbose afterAdd /home/lxs/.npm/which/1.0.9/package/package.json written
+327 http 304 https://registry.npmjs.org/adm-zip
+328 verbose headers { date: 'Thu, 29 Aug 2019 05:44:36 GMT',
+328 verbose headers   connection: 'keep-alive',
+328 verbose headers   'set-cookie':
+328 verbose headers    [ '__cfduid=db66f984e4b5f4fef050aa3b897abc7931567057476; expires=Fri, 28-Aug-20 05:44:36 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+328 verbose headers   'cf-cache-status': 'HIT',
+328 verbose headers   'cache-control': 'max-age=300',
+328 verbose headers   'cf-ray': '50dc36cacbe798ed-LAX',
+328 verbose headers   age: '3540',
+328 verbose headers   etag: '"fed2a79269158ccc9fa9080a77392bbb"',
+328 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+328 verbose headers   'last-modified': 'Thu, 03 Jan 2019 09:32:42 GMT',
+328 verbose headers   vary: 'accept-encoding, accept',
+328 verbose headers   'x-amz-meta-rev': '116-4bd90d6a8d053afc982c3759a2e0d3ed',
+328 verbose headers   server: 'cloudflare' }
+329 silly get cb [ 304,
+329 silly get   { date: 'Thu, 29 Aug 2019 05:44:36 GMT',
+329 silly get     connection: 'keep-alive',
+329 silly get     'set-cookie':
+329 silly get      [ '__cfduid=db66f984e4b5f4fef050aa3b897abc7931567057476; expires=Fri, 28-Aug-20 05:44:36 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+329 silly get     'cf-cache-status': 'HIT',
+329 silly get     'cache-control': 'max-age=300',
+329 silly get     'cf-ray': '50dc36cacbe798ed-LAX',
+329 silly get     age: '3540',
+329 silly get     etag: '"fed2a79269158ccc9fa9080a77392bbb"',
+329 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+329 silly get     'last-modified': 'Thu, 03 Jan 2019 09:32:42 GMT',
+329 silly get     vary: 'accept-encoding, accept',
+329 silly get     'x-amz-meta-rev': '116-4bd90d6a8d053afc982c3759a2e0d3ed',
+329 silly get     server: 'cloudflare' } ]
+330 verbose etag https://registry.npmjs.org/adm-zip from cache
+331 verbose get saving adm-zip to /home/lxs/.npm/registry.npmjs.org/adm-zip/.cache.json
+332 silly resolveWithNewModule adm-zip@0.2.1 checking installable status
+333 silly cache add args [ 'adm-zip@0.2.1', null ]
+334 verbose cache add spec adm-zip@0.2.1
+335 silly cache add parsed spec Result {
+335 silly cache add   raw: 'adm-zip@0.2.1',
+335 silly cache add   scope: null,
+335 silly cache add   name: 'adm-zip',
+335 silly cache add   rawSpec: '0.2.1',
+335 silly cache add   spec: '0.2.1',
+335 silly cache add   type: 'version' }
+336 silly addNamed adm-zip@0.2.1
+337 verbose addNamed "0.2.1" is a plain semver version for adm-zip
+338 silly mapToRegistry name adm-zip
+339 silly mapToRegistry using default registry
+340 silly mapToRegistry registry https://registry.npmjs.org/
+341 silly mapToRegistry uri https://registry.npmjs.org/adm-zip
+342 verbose addNameVersion registry:https://registry.npmjs.org/adm-zip not in flight; fetching
+343 verbose get https://registry.npmjs.org/adm-zip not expired, no request
+344 silly cache afterAdd adm-zip@0.2.1
+345 verbose afterAdd /home/lxs/.npm/adm-zip/0.2.1/package/package.json not in flight; writing
+346 verbose afterAdd /home/lxs/.npm/adm-zip/0.2.1/package/package.json written
+347 http 304 https://registry.npmjs.org/npmconf
+348 verbose headers { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+348 verbose headers   connection: 'keep-alive',
+348 verbose headers   'set-cookie':
+348 verbose headers    [ '__cfduid=dc4cdae0311a3f286a8b66c1b827e7c031567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+348 verbose headers   'cf-cache-status': 'HIT',
+348 verbose headers   'cache-control': 'max-age=300',
+348 verbose headers   'cf-ray': '50dc36c87c8676c2-LAX',
+348 verbose headers   age: '4323',
+348 verbose headers   etag: '"222cafe95f079fb2d5a4be21c070cecc"',
+348 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+348 verbose headers   'last-modified': 'Fri, 09 Aug 2019 06:17:13 GMT',
+348 verbose headers   vary: 'accept-encoding, accept',
+348 verbose headers   'x-amz-meta-rev': '163-ab8b0e14cb0acca9938f93362bd82468',
+348 verbose headers   server: 'cloudflare' }
+349 silly get cb [ 304,
+349 silly get   { date: 'Thu, 29 Aug 2019 05:44:35 GMT',
+349 silly get     connection: 'keep-alive',
+349 silly get     'set-cookie':
+349 silly get      [ '__cfduid=dc4cdae0311a3f286a8b66c1b827e7c031567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+349 silly get     'cf-cache-status': 'HIT',
+349 silly get     'cache-control': 'max-age=300',
+349 silly get     'cf-ray': '50dc36c87c8676c2-LAX',
+349 silly get     age: '4323',
+349 silly get     etag: '"222cafe95f079fb2d5a4be21c070cecc"',
+349 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+349 silly get     'last-modified': 'Fri, 09 Aug 2019 06:17:13 GMT',
+349 silly get     vary: 'accept-encoding, accept',
+349 silly get     'x-amz-meta-rev': '163-ab8b0e14cb0acca9938f93362bd82468',
+349 silly get     server: 'cloudflare' } ]
+350 verbose etag https://registry.npmjs.org/npmconf from cache
+351 verbose get saving npmconf to /home/lxs/.npm/registry.npmjs.org/npmconf/.cache.json
+352 silly resolveWithNewModule npmconf@0.0.24 checking installable status
+353 silly cache add args [ 'npmconf@0.0.24', null ]
+354 verbose cache add spec npmconf@0.0.24
+355 silly cache add parsed spec Result {
+355 silly cache add   raw: 'npmconf@0.0.24',
+355 silly cache add   scope: null,
+355 silly cache add   name: 'npmconf',
+355 silly cache add   rawSpec: '0.0.24',
+355 silly cache add   spec: '0.0.24',
+355 silly cache add   type: 'version' }
+356 silly addNamed npmconf@0.0.24
+357 verbose addNamed "0.0.24" is a plain semver version for npmconf
+358 silly mapToRegistry name npmconf
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry uri https://registry.npmjs.org/npmconf
+362 verbose addNameVersion registry:https://registry.npmjs.org/npmconf not in flight; fetching
+363 verbose get https://registry.npmjs.org/npmconf not expired, no request
+364 warn deprecated npmconf@0.0.24: this package has been reintegrated into npm and is now out of date with respect to npm
+365 silly cache afterAdd npmconf@0.0.24
+366 verbose afterAdd /home/lxs/.npm/npmconf/0.0.24/package/package.json not in flight; writing
+367 verbose afterAdd /home/lxs/.npm/npmconf/0.0.24/package/package.json written
+368 http 304 https://registry.npmjs.org/mkdirp
+369 verbose headers { date: 'Thu, 29 Aug 2019 05:44:36 GMT',
+369 verbose headers   connection: 'keep-alive',
+369 verbose headers   'set-cookie':
+369 verbose headers    [ '__cfduid=da7a7e4be6b9df3f730bad1cf1808456b1567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+369 verbose headers   'cf-cache-status': 'HIT',
+369 verbose headers   'cache-control': 'max-age=300',
+369 verbose headers   'cf-ray': '50dc36c89f54d372-LAX',
+369 verbose headers   age: '2391',
+369 verbose headers   etag: '"8fdcd09d1fddb060f7769b36566bce53"',
+369 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+369 verbose headers   'last-modified': 'Fri, 12 Jul 2019 00:12:42 GMT',
+369 verbose headers   vary: 'accept-encoding, accept',
+369 verbose headers   'x-amz-meta-rev': '449-918eacf96f354f9e9d6e380a299ce479',
+369 verbose headers   server: 'cloudflare' }
+370 silly get cb [ 304,
+370 silly get   { date: 'Thu, 29 Aug 2019 05:44:36 GMT',
+370 silly get     connection: 'keep-alive',
+370 silly get     'set-cookie':
+370 silly get      [ '__cfduid=da7a7e4be6b9df3f730bad1cf1808456b1567057475; expires=Fri, 28-Aug-20 05:44:35 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+370 silly get     'cf-cache-status': 'HIT',
+370 silly get     'cache-control': 'max-age=300',
+370 silly get     'cf-ray': '50dc36c89f54d372-LAX',
+370 silly get     age: '2391',
+370 silly get     etag: '"8fdcd09d1fddb060f7769b36566bce53"',
+370 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+370 silly get     'last-modified': 'Fri, 12 Jul 2019 00:12:42 GMT',
+370 silly get     vary: 'accept-encoding, accept',
+370 silly get     'x-amz-meta-rev': '449-918eacf96f354f9e9d6e380a299ce479',
+370 silly get     server: 'cloudflare' } ]
+371 verbose etag https://registry.npmjs.org/mkdirp from cache
+372 verbose get saving mkdirp to /home/lxs/.npm/registry.npmjs.org/mkdirp/.cache.json
+373 silly resolveWithNewModule mkdirp@0.3.5 checking installable status
+374 silly cache add args [ 'mkdirp@0.3.5', null ]
+375 verbose cache add spec mkdirp@0.3.5
+376 silly cache add parsed spec Result {
+376 silly cache add   raw: 'mkdirp@0.3.5',
+376 silly cache add   scope: null,
+376 silly cache add   name: 'mkdirp',
+376 silly cache add   rawSpec: '0.3.5',
+376 silly cache add   spec: '0.3.5',
+376 silly cache add   type: 'version' }
+377 silly addNamed mkdirp@0.3.5
+378 verbose addNamed "0.3.5" is a plain semver version for mkdirp
+379 silly mapToRegistry name mkdirp
+380 silly mapToRegistry using default registry
+381 silly mapToRegistry registry https://registry.npmjs.org/
+382 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+383 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+384 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+385 silly cache afterAdd mkdirp@0.3.5
+386 verbose afterAdd /home/lxs/.npm/mkdirp/0.3.5/package/package.json not in flight; writing
+387 verbose afterAdd /home/lxs/.npm/mkdirp/0.3.5/package/package.json written
+388 http 304 https://registry.npmjs.org/rimraf
+389 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+389 verbose headers   connection: 'keep-alive',
+389 verbose headers   'set-cookie':
+389 verbose headers    [ '__cfduid=d0aa69e968a623b841da704b399d8a02d1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+389 verbose headers   'cf-cache-status': 'HIT',
+389 verbose headers   'cache-control': 'max-age=300',
+389 verbose headers   'cf-ray': '50dc36dfdaad78a2-LAX',
+389 verbose headers   age: '3714',
+389 verbose headers   etag: '"29d8f838e5251bdaf55cd4ec74bf25f5"',
+389 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+389 verbose headers   'last-modified': 'Wed, 14 Aug 2019 18:12:46 GMT',
+389 verbose headers   vary: 'accept-encoding, accept',
+389 verbose headers   'x-amz-meta-rev': '454-4a3d7f266640a4bcf267f8ac069f63e1',
+389 verbose headers   server: 'cloudflare' }
+390 silly get cb [ 304,
+390 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+390 silly get     connection: 'keep-alive',
+390 silly get     'set-cookie':
+390 silly get      [ '__cfduid=d0aa69e968a623b841da704b399d8a02d1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+390 silly get     'cf-cache-status': 'HIT',
+390 silly get     'cache-control': 'max-age=300',
+390 silly get     'cf-ray': '50dc36dfdaad78a2-LAX',
+390 silly get     age: '3714',
+390 silly get     etag: '"29d8f838e5251bdaf55cd4ec74bf25f5"',
+390 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+390 silly get     'last-modified': 'Wed, 14 Aug 2019 18:12:46 GMT',
+390 silly get     vary: 'accept-encoding, accept',
+390 silly get     'x-amz-meta-rev': '454-4a3d7f266640a4bcf267f8ac069f63e1',
+390 silly get     server: 'cloudflare' } ]
+391 verbose etag https://registry.npmjs.org/rimraf from cache
+392 verbose get saving rimraf to /home/lxs/.npm/registry.npmjs.org/rimraf/.cache.json
+393 silly resolveWithNewModule rimraf@2.2.8 checking installable status
+394 silly cache add args [ 'rimraf@~2.2.2', null ]
+395 verbose cache add spec rimraf@~2.2.2
+396 silly cache add parsed spec Result {
+396 silly cache add   raw: 'rimraf@~2.2.2',
+396 silly cache add   scope: null,
+396 silly cache add   name: 'rimraf',
+396 silly cache add   rawSpec: '~2.2.2',
+396 silly cache add   spec: '>=2.2.2 <2.3.0',
+396 silly cache add   type: 'range' }
+397 silly addNamed rimraf@>=2.2.2 <2.3.0
+398 verbose addNamed ">=2.2.2 <2.3.0" is a valid semver range for rimraf
+399 silly addNameRange { name: 'rimraf', range: '>=2.2.2 <2.3.0', hasData: false }
+400 silly mapToRegistry name rimraf
+401 silly mapToRegistry using default registry
+402 silly mapToRegistry registry https://registry.npmjs.org/
+403 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+404 verbose addNameRange registry:https://registry.npmjs.org/rimraf not in flight; fetching
+405 verbose get https://registry.npmjs.org/rimraf not expired, no request
+406 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.2 <2.3.0', hasData: true }
+407 silly addNameRange versions [ 'rimraf',
+407 silly addNameRange   [ '1.0.0',
+407 silly addNameRange     '1.0.1',
+407 silly addNameRange     '1.0.2',
+407 silly addNameRange     '1.0.4',
+407 silly addNameRange     '1.0.5',
+407 silly addNameRange     '1.0.6',
+407 silly addNameRange     '1.0.7',
+407 silly addNameRange     '1.0.8',
+407 silly addNameRange     '1.0.9',
+407 silly addNameRange     '2.0.0',
+407 silly addNameRange     '2.0.1',
+407 silly addNameRange     '2.0.2',
+407 silly addNameRange     '2.0.3',
+407 silly addNameRange     '2.1.0',
+407 silly addNameRange     '2.1.1',
+407 silly addNameRange     '2.1.2',
+407 silly addNameRange     '2.1.3',
+407 silly addNameRange     '2.1.4',
+407 silly addNameRange     '2.2.0',
+407 silly addNameRange     '2.2.1',
+407 silly addNameRange     '2.2.2',
+407 silly addNameRange     '2.2.3',
+407 silly addNameRange     '2.2.4',
+407 silly addNameRange     '2.2.5',
+407 silly addNameRange     '2.2.6',
+407 silly addNameRange     '2.2.8',
+407 silly addNameRange     '2.3.0',
+407 silly addNameRange     '2.3.1',
+407 silly addNameRange     '2.3.2',
+407 silly addNameRange     '2.3.3',
+407 silly addNameRange     '2.3.4',
+407 silly addNameRange     '2.4.0',
+407 silly addNameRange     '2.4.1',
+407 silly addNameRange     '2.4.2',
+407 silly addNameRange     '2.4.3',
+407 silly addNameRange     '2.4.4',
+407 silly addNameRange     '2.4.5',
+407 silly addNameRange     '2.5.0',
+407 silly addNameRange     '2.5.1',
+407 silly addNameRange     '2.5.2',
+407 silly addNameRange     '2.5.3',
+407 silly addNameRange     '2.5.4',
+407 silly addNameRange     '2.6.0',
+407 silly addNameRange     '2.6.1',
+407 silly addNameRange     '2.6.2',
+407 silly addNameRange     '2.6.3',
+407 silly addNameRange     '2.7.0',
+407 silly addNameRange     '2.7.1',
+407 silly addNameRange     '3.0.0' ] ]
+408 silly addNamed rimraf@2.2.8
+409 verbose addNamed "2.2.8" is a plain semver version for rimraf
+410 silly cache afterAdd rimraf@2.2.8
+411 verbose afterAdd /home/lxs/.npm/rimraf/2.2.8/package/package.json not in flight; writing
+412 verbose afterAdd /home/lxs/.npm/rimraf/2.2.8/package/package.json written
+413 silly fetchNamedPackageData config-chain
+414 silly mapToRegistry name config-chain
+415 silly mapToRegistry using default registry
+416 silly mapToRegistry registry https://registry.npmjs.org/
+417 silly mapToRegistry uri https://registry.npmjs.org/config-chain
+418 silly fetchNamedPackageData inherits
+419 silly mapToRegistry name inherits
+420 silly mapToRegistry using default registry
+421 silly mapToRegistry registry https://registry.npmjs.org/
+422 silly mapToRegistry uri https://registry.npmjs.org/inherits
+423 silly fetchNamedPackageData once
+424 silly mapToRegistry name once
+425 silly mapToRegistry using default registry
+426 silly mapToRegistry registry https://registry.npmjs.org/
+427 silly mapToRegistry uri https://registry.npmjs.org/once
+428 silly fetchNamedPackageData osenv
+429 silly mapToRegistry name osenv
+430 silly mapToRegistry using default registry
+431 silly mapToRegistry registry https://registry.npmjs.org/
+432 silly mapToRegistry uri https://registry.npmjs.org/osenv
+433 silly fetchNamedPackageData nopt
+434 silly mapToRegistry name nopt
+435 silly mapToRegistry using default registry
+436 silly mapToRegistry registry https://registry.npmjs.org/
+437 silly mapToRegistry uri https://registry.npmjs.org/nopt
+438 silly fetchNamedPackageData semver
+439 silly mapToRegistry name semver
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/semver
+443 silly fetchNamedPackageData ini
+444 silly mapToRegistry name ini
+445 silly mapToRegistry using default registry
+446 silly mapToRegistry registry https://registry.npmjs.org/
+447 silly mapToRegistry uri https://registry.npmjs.org/ini
+448 verbose request uri https://registry.npmjs.org/config-chain
+449 verbose request no auth needed
+450 info attempt registry request try #1 at 1:44:39 PM
+451 verbose etag W/"da882e658c2991d0f676ceb79909cf26"
+452 verbose lastModified Tue, 01 Jan 2019 15:24:01 GMT
+453 http request GET https://registry.npmjs.org/config-chain
+454 verbose request uri https://registry.npmjs.org/inherits
+455 verbose request no auth needed
+456 info attempt registry request try #1 at 1:44:39 PM
+457 verbose etag W/"89b9ff30160e62cccc320a50b274ccd9"
+458 verbose lastModified Wed, 19 Jun 2019 20:18:57 GMT
+459 http request GET https://registry.npmjs.org/inherits
+460 verbose request uri https://registry.npmjs.org/once
+461 verbose request no auth needed
+462 info attempt registry request try #1 at 1:44:39 PM
+463 verbose etag W/"edc9f495d2deed74e80dc05995dc33c2"
+464 verbose lastModified Sun, 27 May 2018 11:11:26 GMT
+465 http request GET https://registry.npmjs.org/once
+466 verbose request uri https://registry.npmjs.org/osenv
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 1:44:39 PM
+469 verbose etag W/"f0404e1c3d2b2797636194cef9ece0d3"
+470 verbose lastModified Mon, 19 Aug 2019 22:33:43 GMT
+471 http request GET https://registry.npmjs.org/osenv
+472 verbose request uri https://registry.npmjs.org/nopt
+473 verbose request no auth needed
+474 info attempt registry request try #1 at 1:44:39 PM
+475 verbose etag W/"a2febe0f6a4403f53252ee1a978fdece"
+476 verbose lastModified Mon, 19 Aug 2019 22:33:18 GMT
+477 http request GET https://registry.npmjs.org/nopt
+478 verbose request uri https://registry.npmjs.org/ini
+479 verbose request no auth needed
+480 info attempt registry request try #1 at 1:44:39 PM
+481 verbose etag W/"cb0ea53aa69f5bae2d2dbbcb6aa3d0c1"
+482 verbose lastModified Fri, 19 Apr 2019 08:52:25 GMT
+483 http request GET https://registry.npmjs.org/ini
+484 verbose request uri https://registry.npmjs.org/semver
+485 verbose request no auth needed
+486 info attempt registry request try #1 at 1:44:39 PM
+487 verbose etag W/"e6ebbcafdb10282556797504370caa72"
+488 verbose lastModified Mon, 19 Aug 2019 22:33:50 GMT
+489 http request GET https://registry.npmjs.org/semver
+490 http 304 https://registry.npmjs.org/once
+491 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+491 verbose headers   connection: 'keep-alive',
+491 verbose headers   'set-cookie':
+491 verbose headers    [ '__cfduid=d32f5fd923a487155a75209944ef237831567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+491 verbose headers   'cf-cache-status': 'HIT',
+491 verbose headers   'cache-control': 'max-age=300',
+491 verbose headers   'cf-ray': '50dc36e12947d356-LAX',
+491 verbose headers   age: '2393',
+491 verbose headers   etag: '"edc9f495d2deed74e80dc05995dc33c2"',
+491 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+491 verbose headers   'last-modified': 'Sun, 27 May 2018 11:11:26 GMT',
+491 verbose headers   vary: 'accept-encoding, accept',
+491 verbose headers   server: 'cloudflare' }
+492 silly get cb [ 304,
+492 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+492 silly get     connection: 'keep-alive',
+492 silly get     'set-cookie':
+492 silly get      [ '__cfduid=d32f5fd923a487155a75209944ef237831567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+492 silly get     'cf-cache-status': 'HIT',
+492 silly get     'cache-control': 'max-age=300',
+492 silly get     'cf-ray': '50dc36e12947d356-LAX',
+492 silly get     age: '2393',
+492 silly get     etag: '"edc9f495d2deed74e80dc05995dc33c2"',
+492 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+492 silly get     'last-modified': 'Sun, 27 May 2018 11:11:26 GMT',
+492 silly get     vary: 'accept-encoding, accept',
+492 silly get     server: 'cloudflare' } ]
+493 verbose etag https://registry.npmjs.org/once from cache
+494 verbose get saving once to /home/lxs/.npm/registry.npmjs.org/once/.cache.json
+495 silly resolveWithNewModule once@1.1.1 checking installable status
+496 silly cache add args [ 'once@~1.1.1', null ]
+497 verbose cache add spec once@~1.1.1
+498 silly cache add parsed spec Result {
+498 silly cache add   raw: 'once@~1.1.1',
+498 silly cache add   scope: null,
+498 silly cache add   name: 'once',
+498 silly cache add   rawSpec: '~1.1.1',
+498 silly cache add   spec: '>=1.1.1 <1.2.0',
+498 silly cache add   type: 'range' }
+499 silly addNamed once@>=1.1.1 <1.2.0
+500 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for once
+501 silly addNameRange { name: 'once', range: '>=1.1.1 <1.2.0', hasData: false }
+502 silly mapToRegistry name once
+503 silly mapToRegistry using default registry
+504 silly mapToRegistry registry https://registry.npmjs.org/
+505 silly mapToRegistry uri https://registry.npmjs.org/once
+506 verbose addNameRange registry:https://registry.npmjs.org/once not in flight; fetching
+507 http 304 https://registry.npmjs.org/config-chain
+508 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+508 verbose headers   connection: 'keep-alive',
+508 verbose headers   'set-cookie':
+508 verbose headers    [ '__cfduid=ddcc3a3c045a784993c1fe8f8eee730cc1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+508 verbose headers   'cf-cache-status': 'HIT',
+508 verbose headers   'cache-control': 'max-age=300',
+508 verbose headers   'cf-ray': '50dc36e128525382-LAX',
+508 verbose headers   age: '1351',
+508 verbose headers   etag: '"da882e658c2991d0f676ceb79909cf26"',
+508 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+508 verbose headers   'last-modified': 'Tue, 01 Jan 2019 15:24:01 GMT',
+508 verbose headers   vary: 'accept-encoding, accept',
+508 verbose headers   'x-amz-meta-rev': '60-0b084ff6c676f74faf86ede0a778cc91',
+508 verbose headers   server: 'cloudflare' }
+509 silly get cb [ 304,
+509 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+509 silly get     connection: 'keep-alive',
+509 silly get     'set-cookie':
+509 silly get      [ '__cfduid=ddcc3a3c045a784993c1fe8f8eee730cc1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+509 silly get     'cf-cache-status': 'HIT',
+509 silly get     'cache-control': 'max-age=300',
+509 silly get     'cf-ray': '50dc36e128525382-LAX',
+509 silly get     age: '1351',
+509 silly get     etag: '"da882e658c2991d0f676ceb79909cf26"',
+509 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+509 silly get     'last-modified': 'Tue, 01 Jan 2019 15:24:01 GMT',
+509 silly get     vary: 'accept-encoding, accept',
+509 silly get     'x-amz-meta-rev': '60-0b084ff6c676f74faf86ede0a778cc91',
+509 silly get     server: 'cloudflare' } ]
+510 verbose etag https://registry.npmjs.org/config-chain from cache
+511 verbose get saving config-chain to /home/lxs/.npm/registry.npmjs.org/config-chain/.cache.json
+512 http 304 https://registry.npmjs.org/nopt
+513 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+513 verbose headers   connection: 'keep-alive',
+513 verbose headers   'set-cookie':
+513 verbose headers    [ '__cfduid=d8936273a04bc341120df1b43ec2597cf1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+513 verbose headers   'cf-cache-status': 'HIT',
+513 verbose headers   'cache-control': 'max-age=300',
+513 verbose headers   'cf-ray': '50dc36e12a9076c2-LAX',
+513 verbose headers   age: '3354',
+513 verbose headers   etag: '"a2febe0f6a4403f53252ee1a978fdece"',
+513 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+513 verbose headers   'last-modified': 'Mon, 19 Aug 2019 22:33:18 GMT',
+513 verbose headers   vary: 'accept-encoding, accept',
+513 verbose headers   'x-amz-meta-rev': '117-dd2013fcfce70b50aad468ec21b5469b',
+513 verbose headers   server: 'cloudflare' }
+514 silly get cb [ 304,
+514 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+514 silly get     connection: 'keep-alive',
+514 silly get     'set-cookie':
+514 silly get      [ '__cfduid=d8936273a04bc341120df1b43ec2597cf1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+514 silly get     'cf-cache-status': 'HIT',
+514 silly get     'cache-control': 'max-age=300',
+514 silly get     'cf-ray': '50dc36e12a9076c2-LAX',
+514 silly get     age: '3354',
+514 silly get     etag: '"a2febe0f6a4403f53252ee1a978fdece"',
+514 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+514 silly get     'last-modified': 'Mon, 19 Aug 2019 22:33:18 GMT',
+514 silly get     vary: 'accept-encoding, accept',
+514 silly get     'x-amz-meta-rev': '117-dd2013fcfce70b50aad468ec21b5469b',
+514 silly get     server: 'cloudflare' } ]
+515 verbose etag https://registry.npmjs.org/nopt from cache
+516 verbose get saving nopt to /home/lxs/.npm/registry.npmjs.org/nopt/.cache.json
+517 http 304 https://registry.npmjs.org/semver
+518 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+518 verbose headers   connection: 'keep-alive',
+518 verbose headers   'set-cookie':
+518 verbose headers    [ '__cfduid=d0aa69e968a623b841da704b399d8a02d1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+518 verbose headers   'cf-cache-status': 'HIT',
+518 verbose headers   'cache-control': 'max-age=300',
+518 verbose headers   'cf-ray': '50dc36e14bef78a2-LAX',
+518 verbose headers   age: '3473',
+518 verbose headers   etag: '"e6ebbcafdb10282556797504370caa72"',
+518 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+518 verbose headers   'last-modified': 'Mon, 19 Aug 2019 22:33:50 GMT',
+518 verbose headers   vary: 'accept-encoding, accept',
+518 verbose headers   'x-amz-meta-rev': '369-6321c38c6a23accb25f2bd35858cc753',
+518 verbose headers   server: 'cloudflare' }
+519 silly get cb [ 304,
+519 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+519 silly get     connection: 'keep-alive',
+519 silly get     'set-cookie':
+519 silly get      [ '__cfduid=d0aa69e968a623b841da704b399d8a02d1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+519 silly get     'cf-cache-status': 'HIT',
+519 silly get     'cache-control': 'max-age=300',
+519 silly get     'cf-ray': '50dc36e14bef78a2-LAX',
+519 silly get     age: '3473',
+519 silly get     etag: '"e6ebbcafdb10282556797504370caa72"',
+519 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+519 silly get     'last-modified': 'Mon, 19 Aug 2019 22:33:50 GMT',
+519 silly get     vary: 'accept-encoding, accept',
+519 silly get     'x-amz-meta-rev': '369-6321c38c6a23accb25f2bd35858cc753',
+519 silly get     server: 'cloudflare' } ]
+520 verbose etag https://registry.npmjs.org/semver from cache
+521 verbose get saving semver to /home/lxs/.npm/registry.npmjs.org/semver/.cache.json
+522 verbose get https://registry.npmjs.org/once not expired, no request
+523 silly addNameRange number 2 { name: 'once', range: '>=1.1.1 <1.2.0', hasData: true }
+524 silly addNameRange versions [ 'once',
+524 silly addNameRange   [ '1.1.1', '1.2.0', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.4.0' ] ]
+525 silly addNamed once@1.1.1
+526 verbose addNamed "1.1.1" is a plain semver version for once
+527 http 304 https://registry.npmjs.org/ini
+528 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+528 verbose headers   connection: 'keep-alive',
+528 verbose headers   'set-cookie':
+528 verbose headers    [ '__cfduid=db71f59335e3ef71db39810cd5aa1ac621567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+528 verbose headers   'cf-cache-status': 'HIT',
+528 verbose headers   'cache-control': 'max-age=300',
+528 verbose headers   'cf-ray': '50dc36e14c38d372-LAX',
+528 verbose headers   age: '2338',
+528 verbose headers   etag: '"cb0ea53aa69f5bae2d2dbbcb6aa3d0c1"',
+528 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+528 verbose headers   'last-modified': 'Fri, 19 Apr 2019 08:52:25 GMT',
+528 verbose headers   vary: 'accept-encoding, accept',
+528 verbose headers   'x-amz-meta-rev': '80-50e22ce491a1518fefd2b6fac61d803a',
+528 verbose headers   server: 'cloudflare' }
+529 silly get cb [ 304,
+529 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+529 silly get     connection: 'keep-alive',
+529 silly get     'set-cookie':
+529 silly get      [ '__cfduid=db71f59335e3ef71db39810cd5aa1ac621567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+529 silly get     'cf-cache-status': 'HIT',
+529 silly get     'cache-control': 'max-age=300',
+529 silly get     'cf-ray': '50dc36e14c38d372-LAX',
+529 silly get     age: '2338',
+529 silly get     etag: '"cb0ea53aa69f5bae2d2dbbcb6aa3d0c1"',
+529 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+529 silly get     'last-modified': 'Fri, 19 Apr 2019 08:52:25 GMT',
+529 silly get     vary: 'accept-encoding, accept',
+529 silly get     'x-amz-meta-rev': '80-50e22ce491a1518fefd2b6fac61d803a',
+529 silly get     server: 'cloudflare' } ]
+530 verbose etag https://registry.npmjs.org/ini from cache
+531 verbose get saving ini to /home/lxs/.npm/registry.npmjs.org/ini/.cache.json
+532 silly resolveWithNewModule config-chain@1.1.12 checking installable status
+533 silly cache add args [ 'config-chain@~1.1.1', null ]
+534 verbose cache add spec config-chain@~1.1.1
+535 silly cache add parsed spec Result {
+535 silly cache add   raw: 'config-chain@~1.1.1',
+535 silly cache add   scope: null,
+535 silly cache add   name: 'config-chain',
+535 silly cache add   rawSpec: '~1.1.1',
+535 silly cache add   spec: '>=1.1.1 <1.2.0',
+535 silly cache add   type: 'range' }
+536 silly addNamed config-chain@>=1.1.1 <1.2.0
+537 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for config-chain
+538 silly addNameRange { name: 'config-chain', range: '>=1.1.1 <1.2.0', hasData: false }
+539 silly mapToRegistry name config-chain
+540 silly mapToRegistry using default registry
+541 silly mapToRegistry registry https://registry.npmjs.org/
+542 silly mapToRegistry uri https://registry.npmjs.org/config-chain
+543 verbose addNameRange registry:https://registry.npmjs.org/config-chain not in flight; fetching
+544 silly resolveWithNewModule nopt@2.2.1 checking installable status
+545 silly cache add args [ 'nopt@2', null ]
+546 verbose cache add spec nopt@2
+547 silly cache add parsed spec Result {
+547 silly cache add   raw: 'nopt@2',
+547 silly cache add   scope: null,
+547 silly cache add   name: 'nopt',
+547 silly cache add   rawSpec: '2',
+547 silly cache add   spec: '>=2.0.0 <3.0.0',
+547 silly cache add   type: 'range' }
+548 silly addNamed nopt@>=2.0.0 <3.0.0
+549 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for nopt
+550 silly addNameRange { name: 'nopt', range: '>=2.0.0 <3.0.0', hasData: false }
+551 silly mapToRegistry name nopt
+552 silly mapToRegistry using default registry
+553 silly mapToRegistry registry https://registry.npmjs.org/
+554 silly mapToRegistry uri https://registry.npmjs.org/nopt
+555 verbose addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+556 silly cache afterAdd once@1.1.1
+557 verbose afterAdd /home/lxs/.npm/once/1.1.1/package/package.json not in flight; writing
+558 silly resolveWithNewModule semver@1.1.4 checking installable status
+559 silly cache add args [ 'semver@~1.1.0', null ]
+560 verbose cache add spec semver@~1.1.0
+561 silly cache add parsed spec Result {
+561 silly cache add   raw: 'semver@~1.1.0',
+561 silly cache add   scope: null,
+561 silly cache add   name: 'semver',
+561 silly cache add   rawSpec: '~1.1.0',
+561 silly cache add   spec: '>=1.1.0 <1.2.0',
+561 silly cache add   type: 'range' }
+562 silly addNamed semver@>=1.1.0 <1.2.0
+563 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for semver
+564 silly addNameRange { name: 'semver', range: '>=1.1.0 <1.2.0', hasData: false }
+565 silly mapToRegistry name semver
+566 silly mapToRegistry using default registry
+567 silly mapToRegistry registry https://registry.npmjs.org/
+568 silly mapToRegistry uri https://registry.npmjs.org/semver
+569 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+570 verbose get https://registry.npmjs.org/config-chain not expired, no request
+571 silly addNameRange number 2 { name: 'config-chain', range: '>=1.1.1 <1.2.0', hasData: true }
+572 silly addNameRange versions [ 'config-chain',
+572 silly addNameRange   [ '0.1.0',
+572 silly addNameRange     '0.1.1',
+572 silly addNameRange     '0.2.0',
+572 silly addNameRange     '0.3.0',
+572 silly addNameRange     '0.3.1',
+572 silly addNameRange     '0.3.2',
+572 silly addNameRange     '0.3.3',
+572 silly addNameRange     '1.0.0',
+572 silly addNameRange     '1.0.1',
+572 silly addNameRange     '1.1.0',
+572 silly addNameRange     '1.1.1',
+572 silly addNameRange     '1.1.2',
+572 silly addNameRange     '1.1.3',
+572 silly addNameRange     '1.1.4',
+572 silly addNameRange     '1.1.5',
+572 silly addNameRange     '1.1.6',
+572 silly addNameRange     '0.3.4',
+572 silly addNameRange     '1.1.7',
+572 silly addNameRange     '1.1.8',
+572 silly addNameRange     '1.1.9',
+572 silly addNameRange     '1.1.10',
+572 silly addNameRange     '1.1.11',
+572 silly addNameRange     '1.1.12' ] ]
+573 silly addNamed config-chain@1.1.12
+574 verbose addNamed "1.1.12" is a plain semver version for config-chain
+575 verbose get https://registry.npmjs.org/nopt not expired, no request
+576 silly addNameRange number 2 { name: 'nopt', range: '>=2.0.0 <3.0.0', hasData: true }
+577 silly addNameRange versions [ 'nopt',
+577 silly addNameRange   [ '1.0.0',
+577 silly addNameRange     '1.0.1',
+577 silly addNameRange     '1.0.2',
+577 silly addNameRange     '1.0.3',
+577 silly addNameRange     '1.0.4',
+577 silly addNameRange     '1.0.5',
+577 silly addNameRange     '1.0.6',
+577 silly addNameRange     '1.0.7',
+577 silly addNameRange     '1.0.8',
+577 silly addNameRange     '1.0.9',
+577 silly addNameRange     '1.0.10',
+577 silly addNameRange     '2.0.0',
+577 silly addNameRange     '2.1.0',
+577 silly addNameRange     '2.1.1',
+577 silly addNameRange     '2.1.2',
+577 silly addNameRange     '2.2.0',
+577 silly addNameRange     '2.2.1',
+577 silly addNameRange     '3.0.0',
+577 silly addNameRange     '3.0.1',
+577 silly addNameRange     '3.0.2',
+577 silly addNameRange     '3.0.3',
+577 silly addNameRange     '3.0.4',
+577 silly addNameRange     '3.0.5',
+577 silly addNameRange     '3.0.6',
+577 silly addNameRange     '4.0.0',
+577 silly addNameRange     '4.0.1' ] ]
+578 silly addNamed nopt@2.2.1
+579 verbose addNamed "2.2.1" is a plain semver version for nopt
+580 silly resolveWithNewModule ini@1.1.0 checking installable status
+581 silly cache add args [ 'ini@~1.1.0', null ]
+582 verbose cache add spec ini@~1.1.0
+583 silly cache add parsed spec Result {
+583 silly cache add   raw: 'ini@~1.1.0',
+583 silly cache add   scope: null,
+583 silly cache add   name: 'ini',
+583 silly cache add   rawSpec: '~1.1.0',
+583 silly cache add   spec: '>=1.1.0 <1.2.0',
+583 silly cache add   type: 'range' }
+584 silly addNamed ini@>=1.1.0 <1.2.0
+585 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for ini
+586 silly addNameRange { name: 'ini', range: '>=1.1.0 <1.2.0', hasData: false }
+587 silly mapToRegistry name ini
+588 silly mapToRegistry using default registry
+589 silly mapToRegistry registry https://registry.npmjs.org/
+590 silly mapToRegistry uri https://registry.npmjs.org/ini
+591 verbose addNameRange registry:https://registry.npmjs.org/ini not in flight; fetching
+592 verbose afterAdd /home/lxs/.npm/once/1.1.1/package/package.json written
+593 verbose get https://registry.npmjs.org/semver not expired, no request
+594 silly addNameRange number 2 { name: 'semver', range: '>=1.1.0 <1.2.0', hasData: true }
+595 silly addNameRange versions [ 'semver',
+595 silly addNameRange   [ '1.0.0',
+595 silly addNameRange     '1.0.1',
+595 silly addNameRange     '1.0.2',
+595 silly addNameRange     '1.0.3',
+595 silly addNameRange     '1.0.4',
+595 silly addNameRange     '1.0.5',
+595 silly addNameRange     '1.0.6',
+595 silly addNameRange     '1.0.7',
+595 silly addNameRange     '1.0.8',
+595 silly addNameRange     '1.0.9',
+595 silly addNameRange     '1.0.10',
+595 silly addNameRange     '1.0.11',
+595 silly addNameRange     '1.0.12',
+595 silly addNameRange     '1.0.13',
+595 silly addNameRange     '1.0.14',
+595 silly addNameRange     '1.1.0',
+595 silly addNameRange     '1.1.1',
+595 silly addNameRange     '1.1.2',
+595 silly addNameRange     '1.1.3',
+595 silly addNameRange     '1.1.4',
+595 silly addNameRange     '2.0.0-alpha',
+595 silly addNameRange     '2.0.0-beta',
+595 silly addNameRange     '2.0.1',
+595 silly addNameRange     '2.0.2',
+595 silly addNameRange     '2.0.3',
+595 silly addNameRange     '2.0.4',
+595 silly addNameRange     '2.0.5',
+595 silly addNameRange     '2.0.6',
+595 silly addNameRange     '2.0.7',
+595 silly addNameRange     '2.0.8',
+595 silly addNameRange     '2.0.9',
+595 silly addNameRange     '2.0.10',
+595 silly addNameRange     '2.0.11',
+595 silly addNameRange     '2.1.0',
+595 silly addNameRange     '2.2.0',
+595 silly addNameRange     '2.2.1',
+595 silly addNameRange     '2.3.0',
+595 silly addNameRange     '2.3.1',
+595 silly addNameRange     '2.3.2',
+595 silly addNameRange     '3.0.0',
+595 silly addNameRange     '3.0.1',
+595 silly addNameRange     '4.0.0',
+595 silly addNameRange     '4.0.2',
+595 silly addNameRange     '4.0.3',
+595 silly addNameRange     '4.1.0',
+595 silly addNameRange     '4.1.1',
+595 silly addNameRange     '4.2.0',
+595 silly addNameRange     '4.2.1',
+595 silly addNameRange     '4.2.2',
+595 silly addNameRange     '4.3.0',
+595 silly addNameRange     '4.3.1',
+595 silly addNameRange     '4.3.2',
+595 silly addNameRange     '4.3.3',
+595 silly addNameRange     '4.3.4',
+595 silly addNameRange     '4.3.5',
+595 silly addNameRange     '4.3.6',
+595 silly addNameRange     '5.0.0',
+595 silly addNameRange     '5.0.1',
+595 silly addNameRange     '5.0.2',
+595 silly addNameRange     '5.0.3',
+595 silly addNameRange     '5.1.0',
+595 silly addNameRange     '5.1.1',
+595 silly addNameRange     '5.2.0',
+595 silly addNameRange     '5.3.0',
+595 silly addNameRange     '5.4.0',
+595 silly addNameRange     '5.4.1',
+595 silly addNameRange     '5.5.0',
+595 silly addNameRange     '5.5.1',
+595 silly addNameRange     '5.6.0',
+595 silly addNameRange     '5.7.0',
+595 silly addNameRange     '6.0.0',
+595 silly addNameRange     '6.1.0',
+595 silly addNameRange     '6.1.1',
+595 silly addNameRange     '6.1.2',
+595 silly addNameRange     '6.1.3',
+595 silly addNameRange     '6.2.0',
+595 silly addNameRange     '6.3.0',
+595 silly addNameRange     '5.7.1' ] ]
+596 silly addNamed semver@1.1.4
+597 verbose addNamed "1.1.4" is a plain semver version for semver
+598 http 304 https://registry.npmjs.org/inherits
+599 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+599 verbose headers   connection: 'keep-alive',
+599 verbose headers   'set-cookie':
+599 verbose headers    [ '__cfduid=d319171881b035120d2289febd53a24761567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+599 verbose headers   'cf-cache-status': 'HIT',
+599 verbose headers   'cache-control': 'max-age=300',
+599 verbose headers   'cf-ray': '50dc36e13ea29833-LAX',
+599 verbose headers   age: '2561',
+599 verbose headers   etag: '"89b9ff30160e62cccc320a50b274ccd9"',
+599 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+599 verbose headers   'last-modified': 'Wed, 19 Jun 2019 20:18:57 GMT',
+599 verbose headers   vary: 'accept-encoding, accept',
+599 verbose headers   'x-amz-meta-rev': '93-0c2ab1c34e355d57c2f8d33d2c0c936c',
+599 verbose headers   server: 'cloudflare' }
+600 silly get cb [ 304,
+600 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+600 silly get     connection: 'keep-alive',
+600 silly get     'set-cookie':
+600 silly get      [ '__cfduid=d319171881b035120d2289febd53a24761567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+600 silly get     'cf-cache-status': 'HIT',
+600 silly get     'cache-control': 'max-age=300',
+600 silly get     'cf-ray': '50dc36e13ea29833-LAX',
+600 silly get     age: '2561',
+600 silly get     etag: '"89b9ff30160e62cccc320a50b274ccd9"',
+600 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+600 silly get     'last-modified': 'Wed, 19 Jun 2019 20:18:57 GMT',
+600 silly get     vary: 'accept-encoding, accept',
+600 silly get     'x-amz-meta-rev': '93-0c2ab1c34e355d57c2f8d33d2c0c936c',
+600 silly get     server: 'cloudflare' } ]
+601 verbose etag https://registry.npmjs.org/inherits from cache
+602 verbose get saving inherits to /home/lxs/.npm/registry.npmjs.org/inherits/.cache.json
+603 silly cache afterAdd config-chain@1.1.12
+604 verbose afterAdd /home/lxs/.npm/config-chain/1.1.12/package/package.json not in flight; writing
+605 verbose get https://registry.npmjs.org/ini not expired, no request
+606 silly addNameRange number 2 { name: 'ini', range: '>=1.1.0 <1.2.0', hasData: true }
+607 silly addNameRange versions [ 'ini',
+607 silly addNameRange   [ '1.0.0',
+607 silly addNameRange     '1.0.1',
+607 silly addNameRange     '1.0.2',
+607 silly addNameRange     '1.0.3',
+607 silly addNameRange     '1.0.4',
+607 silly addNameRange     '1.0.5',
+607 silly addNameRange     '1.1.0',
+607 silly addNameRange     '1.2.0',
+607 silly addNameRange     '1.2.1',
+607 silly addNameRange     '1.3.0',
+607 silly addNameRange     '1.3.1',
+607 silly addNameRange     '1.3.2',
+607 silly addNameRange     '1.3.3',
+607 silly addNameRange     '1.3.4',
+607 silly addNameRange     '1.3.5' ] ]
+608 silly addNamed ini@1.1.0
+609 verbose addNamed "1.1.0" is a plain semver version for ini
+610 silly cache afterAdd nopt@2.2.1
+611 verbose afterAdd /home/lxs/.npm/nopt/2.2.1/package/package.json not in flight; writing
+612 silly cache afterAdd semver@1.1.4
+613 verbose afterAdd /home/lxs/.npm/semver/1.1.4/package/package.json not in flight; writing
+614 verbose afterAdd /home/lxs/.npm/config-chain/1.1.12/package/package.json written
+615 silly cache afterAdd ini@1.1.0
+616 verbose afterAdd /home/lxs/.npm/ini/1.1.0/package/package.json not in flight; writing
+617 silly resolveWithNewModule inherits@1.0.2 checking installable status
+618 silly cache add args [ 'inherits@~1.0.0', null ]
+619 verbose cache add spec inherits@~1.0.0
+620 silly cache add parsed spec Result {
+620 silly cache add   raw: 'inherits@~1.0.0',
+620 silly cache add   scope: null,
+620 silly cache add   name: 'inherits',
+620 silly cache add   rawSpec: '~1.0.0',
+620 silly cache add   spec: '>=1.0.0 <1.1.0',
+620 silly cache add   type: 'range' }
+621 silly addNamed inherits@>=1.0.0 <1.1.0
+622 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for inherits
+623 silly addNameRange { name: 'inherits', range: '>=1.0.0 <1.1.0', hasData: false }
+624 silly mapToRegistry name inherits
+625 silly mapToRegistry using default registry
+626 silly mapToRegistry registry https://registry.npmjs.org/
+627 silly mapToRegistry uri https://registry.npmjs.org/inherits
+628 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+629 verbose afterAdd /home/lxs/.npm/nopt/2.2.1/package/package.json written
+630 verbose afterAdd /home/lxs/.npm/semver/1.1.4/package/package.json written
+631 verbose get https://registry.npmjs.org/inherits not expired, no request
+632 silly addNameRange number 2 { name: 'inherits', range: '>=1.0.0 <1.1.0', hasData: true }
+633 silly addNameRange versions [ 'inherits',
+633 silly addNameRange   [ '1.0.0', '2.0.0', '2.0.1', '1.0.1', '1.0.2', '2.0.3', '2.0.4' ] ]
+634 silly addNamed inherits@1.0.2
+635 verbose addNamed "1.0.2" is a plain semver version for inherits
+636 verbose afterAdd /home/lxs/.npm/ini/1.1.0/package/package.json written
+637 silly cache afterAdd inherits@1.0.2
+638 verbose afterAdd /home/lxs/.npm/inherits/1.0.2/package/package.json not in flight; writing
+639 verbose afterAdd /home/lxs/.npm/inherits/1.0.2/package/package.json written
+640 http 304 https://registry.npmjs.org/osenv
+641 verbose headers { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+641 verbose headers   connection: 'keep-alive',
+641 verbose headers   'set-cookie':
+641 verbose headers    [ '__cfduid=d029401f6b390e931fa2916edfab9791d1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+641 verbose headers   'cf-cache-status': 'HIT',
+641 verbose headers   'cache-control': 'max-age=300',
+641 verbose headers   'cf-ray': '50dc36e14e1798ed-LAX',
+641 verbose headers   age: '3301',
+641 verbose headers   etag: '"f0404e1c3d2b2797636194cef9ece0d3"',
+641 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+641 verbose headers   'last-modified': 'Mon, 19 Aug 2019 22:33:43 GMT',
+641 verbose headers   vary: 'accept-encoding, accept',
+641 verbose headers   'x-amz-meta-rev': '32-c62adadb57fe3a2528281c0c9e7f360f',
+641 verbose headers   server: 'cloudflare' }
+642 silly get cb [ 304,
+642 silly get   { date: 'Thu, 29 Aug 2019 05:44:39 GMT',
+642 silly get     connection: 'keep-alive',
+642 silly get     'set-cookie':
+642 silly get      [ '__cfduid=d029401f6b390e931fa2916edfab9791d1567057479; expires=Fri, 28-Aug-20 05:44:39 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+642 silly get     'cf-cache-status': 'HIT',
+642 silly get     'cache-control': 'max-age=300',
+642 silly get     'cf-ray': '50dc36e14e1798ed-LAX',
+642 silly get     age: '3301',
+642 silly get     etag: '"f0404e1c3d2b2797636194cef9ece0d3"',
+642 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+642 silly get     'last-modified': 'Mon, 19 Aug 2019 22:33:43 GMT',
+642 silly get     vary: 'accept-encoding, accept',
+642 silly get     'x-amz-meta-rev': '32-c62adadb57fe3a2528281c0c9e7f360f',
+642 silly get     server: 'cloudflare' } ]
+643 verbose etag https://registry.npmjs.org/osenv from cache
+644 verbose get saving osenv to /home/lxs/.npm/registry.npmjs.org/osenv/.cache.json
+645 silly resolveWithNewModule osenv@0.0.3 checking installable status
+646 silly cache add args [ 'osenv@0.0.3', null ]
+647 verbose cache add spec osenv@0.0.3
+648 silly cache add parsed spec Result {
+648 silly cache add   raw: 'osenv@0.0.3',
+648 silly cache add   scope: null,
+648 silly cache add   name: 'osenv',
+648 silly cache add   rawSpec: '0.0.3',
+648 silly cache add   spec: '0.0.3',
+648 silly cache add   type: 'version' }
+649 silly addNamed osenv@0.0.3
+650 verbose addNamed "0.0.3" is a plain semver version for osenv
+651 silly mapToRegistry name osenv
+652 silly mapToRegistry using default registry
+653 silly mapToRegistry registry https://registry.npmjs.org/
+654 silly mapToRegistry uri https://registry.npmjs.org/osenv
+655 verbose addNameVersion registry:https://registry.npmjs.org/osenv not in flight; fetching
+656 verbose get https://registry.npmjs.org/osenv not expired, no request
+657 silly cache afterAdd osenv@0.0.3
+658 verbose afterAdd /home/lxs/.npm/osenv/0.0.3/package/package.json not in flight; writing
+659 verbose afterAdd /home/lxs/.npm/osenv/0.0.3/package/package.json written
+660 silly fetchNamedPackageData proto-list
+661 silly mapToRegistry name proto-list
+662 silly mapToRegistry using default registry
+663 silly mapToRegistry registry https://registry.npmjs.org/
+664 silly mapToRegistry uri https://registry.npmjs.org/proto-list
+665 silly fetchNamedPackageData ini
+666 silly mapToRegistry name ini
+667 silly mapToRegistry using default registry
+668 silly mapToRegistry registry https://registry.npmjs.org/
+669 silly mapToRegistry uri https://registry.npmjs.org/ini
+670 silly resolveWithNewModule ini@1.3.5 checking installable status
+671 silly cache add args [ 'ini@^1.3.4', null ]
+672 verbose cache add spec ini@^1.3.4
+673 silly cache add parsed spec Result {
+673 silly cache add   raw: 'ini@^1.3.4',
+673 silly cache add   scope: null,
+673 silly cache add   name: 'ini',
+673 silly cache add   rawSpec: '^1.3.4',
+673 silly cache add   spec: '>=1.3.4 <2.0.0',
+673 silly cache add   type: 'range' }
+674 silly addNamed ini@>=1.3.4 <2.0.0
+675 verbose addNamed ">=1.3.4 <2.0.0" is a valid semver range for ini
+676 silly addNameRange { name: 'ini', range: '>=1.3.4 <2.0.0', hasData: false }
+677 silly mapToRegistry name ini
+678 silly mapToRegistry using default registry
+679 silly mapToRegistry registry https://registry.npmjs.org/
+680 silly mapToRegistry uri https://registry.npmjs.org/ini
+681 verbose addNameRange registry:https://registry.npmjs.org/ini not in flight; fetching
+682 verbose request uri https://registry.npmjs.org/proto-list
+683 verbose request no auth needed
+684 info attempt registry request try #1 at 1:44:40 PM
+685 verbose etag W/"cc1bb46f33913415d8790fcb9cfd457c"
+686 verbose lastModified Sun, 27 May 2018 13:01:49 GMT
+687 http request GET https://registry.npmjs.org/proto-list
+688 verbose get https://registry.npmjs.org/ini not expired, no request
+689 silly addNameRange number 2 { name: 'ini', range: '>=1.3.4 <2.0.0', hasData: true }
+690 silly addNameRange versions [ 'ini',
+690 silly addNameRange   [ '1.0.0',
+690 silly addNameRange     '1.0.1',
+690 silly addNameRange     '1.0.2',
+690 silly addNameRange     '1.0.3',
+690 silly addNameRange     '1.0.4',
+690 silly addNameRange     '1.0.5',
+690 silly addNameRange     '1.1.0',
+690 silly addNameRange     '1.2.0',
+690 silly addNameRange     '1.2.1',
+690 silly addNameRange     '1.3.0',
+690 silly addNameRange     '1.3.1',
+690 silly addNameRange     '1.3.2',
+690 silly addNameRange     '1.3.3',
+690 silly addNameRange     '1.3.4',
+690 silly addNameRange     '1.3.5' ] ]
+691 silly addNamed ini@1.3.5
+692 verbose addNamed "1.3.5" is a plain semver version for ini
+693 silly cache afterAdd ini@1.3.5
+694 verbose afterAdd /home/lxs/.npm/ini/1.3.5/package/package.json not in flight; writing
+695 verbose afterAdd /home/lxs/.npm/ini/1.3.5/package/package.json written
+696 http 304 https://registry.npmjs.org/proto-list
+697 verbose headers { date: 'Thu, 29 Aug 2019 05:44:40 GMT',
+697 verbose headers   connection: 'keep-alive',
+697 verbose headers   'set-cookie':
+697 verbose headers    [ '__cfduid=dc66bd1f4316a1607b74d8b2e3be97e9e1567057480; expires=Fri, 28-Aug-20 05:44:40 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+697 verbose headers   'cf-cache-status': 'HIT',
+697 verbose headers   'cache-control': 'max-age=300',
+697 verbose headers   'cf-ray': '50dc36e5a995d356-LAX',
+697 verbose headers   age: '2563',
+697 verbose headers   etag: '"cc1bb46f33913415d8790fcb9cfd457c"',
+697 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+697 verbose headers   'last-modified': 'Sun, 27 May 2018 13:01:49 GMT',
+697 verbose headers   vary: 'accept-encoding, accept',
+697 verbose headers   server: 'cloudflare' }
+698 silly get cb [ 304,
+698 silly get   { date: 'Thu, 29 Aug 2019 05:44:40 GMT',
+698 silly get     connection: 'keep-alive',
+698 silly get     'set-cookie':
+698 silly get      [ '__cfduid=dc66bd1f4316a1607b74d8b2e3be97e9e1567057480; expires=Fri, 28-Aug-20 05:44:40 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+698 silly get     'cf-cache-status': 'HIT',
+698 silly get     'cache-control': 'max-age=300',
+698 silly get     'cf-ray': '50dc36e5a995d356-LAX',
+698 silly get     age: '2563',
+698 silly get     etag: '"cc1bb46f33913415d8790fcb9cfd457c"',
+698 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+698 silly get     'last-modified': 'Sun, 27 May 2018 13:01:49 GMT',
+698 silly get     vary: 'accept-encoding, accept',
+698 silly get     server: 'cloudflare' } ]
+699 verbose etag https://registry.npmjs.org/proto-list from cache
+700 verbose get saving proto-list to /home/lxs/.npm/registry.npmjs.org/proto-list/.cache.json
+701 silly resolveWithNewModule proto-list@1.2.4 checking installable status
+702 silly cache add args [ 'proto-list@~1.2.1', null ]
+703 verbose cache add spec proto-list@~1.2.1
+704 silly cache add parsed spec Result {
+704 silly cache add   raw: 'proto-list@~1.2.1',
+704 silly cache add   scope: null,
+704 silly cache add   name: 'proto-list',
+704 silly cache add   rawSpec: '~1.2.1',
+704 silly cache add   spec: '>=1.2.1 <1.3.0',
+704 silly cache add   type: 'range' }
+705 silly addNamed proto-list@>=1.2.1 <1.3.0
+706 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for proto-list
+707 silly addNameRange { name: 'proto-list', range: '>=1.2.1 <1.3.0', hasData: false }
+708 silly mapToRegistry name proto-list
+709 silly mapToRegistry using default registry
+710 silly mapToRegistry registry https://registry.npmjs.org/
+711 silly mapToRegistry uri https://registry.npmjs.org/proto-list
+712 verbose addNameRange registry:https://registry.npmjs.org/proto-list not in flight; fetching
+713 verbose get https://registry.npmjs.org/proto-list not expired, no request
+714 silly addNameRange number 2 { name: 'proto-list', range: '>=1.2.1 <1.3.0', hasData: true }
+715 silly addNameRange versions [ 'proto-list',
+715 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.2.4' ] ]
+716 silly addNamed proto-list@1.2.4
+717 verbose addNamed "1.2.4" is a plain semver version for proto-list
+718 silly cache afterAdd proto-list@1.2.4
+719 verbose afterAdd /home/lxs/.npm/proto-list/1.2.4/package/package.json not in flight; writing
+720 verbose afterAdd /home/lxs/.npm/proto-list/1.2.4/package/package.json written
+721 silly fetchNamedPackageData abbrev
+722 silly mapToRegistry name abbrev
+723 silly mapToRegistry using default registry
+724 silly mapToRegistry registry https://registry.npmjs.org/
+725 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+726 verbose request uri https://registry.npmjs.org/abbrev
+727 verbose request no auth needed
+728 info attempt registry request try #1 at 1:44:40 PM
+729 verbose etag W/"d11a13abbad45bedf19ec4ec24e9055f"
+730 verbose lastModified Mon, 19 Aug 2019 22:32:43 GMT
+731 http request GET https://registry.npmjs.org/abbrev
+732 http 304 https://registry.npmjs.org/abbrev
+733 verbose headers { date: 'Thu, 29 Aug 2019 05:44:40 GMT',
+733 verbose headers   connection: 'keep-alive',
+733 verbose headers   'set-cookie':
+733 verbose headers    [ '__cfduid=da7d20760c6079241f0607abd167a2e6a1567057480; expires=Fri, 28-Aug-20 05:44:40 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+733 verbose headers   'cf-cache-status': 'HIT',
+733 verbose headers   'cache-control': 'max-age=300',
+733 verbose headers   'cf-ray': '50dc36e6ebd55382-LAX',
+733 verbose headers   age: '3355',
+733 verbose headers   etag: '"d11a13abbad45bedf19ec4ec24e9055f"',
+733 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+733 verbose headers   'last-modified': 'Mon, 19 Aug 2019 22:32:43 GMT',
+733 verbose headers   vary: 'accept-encoding, accept',
+733 verbose headers   'x-amz-meta-rev': '62-82ff75ac6e0229b29ca45da0466d45a7',
+733 verbose headers   server: 'cloudflare' }
+734 silly get cb [ 304,
+734 silly get   { date: 'Thu, 29 Aug 2019 05:44:40 GMT',
+734 silly get     connection: 'keep-alive',
+734 silly get     'set-cookie':
+734 silly get      [ '__cfduid=da7d20760c6079241f0607abd167a2e6a1567057480; expires=Fri, 28-Aug-20 05:44:40 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+734 silly get     'cf-cache-status': 'HIT',
+734 silly get     'cache-control': 'max-age=300',
+734 silly get     'cf-ray': '50dc36e6ebd55382-LAX',
+734 silly get     age: '3355',
+734 silly get     etag: '"d11a13abbad45bedf19ec4ec24e9055f"',
+734 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+734 silly get     'last-modified': 'Mon, 19 Aug 2019 22:32:43 GMT',
+734 silly get     vary: 'accept-encoding, accept',
+734 silly get     'x-amz-meta-rev': '62-82ff75ac6e0229b29ca45da0466d45a7',
+734 silly get     server: 'cloudflare' } ]
+735 verbose etag https://registry.npmjs.org/abbrev from cache
+736 verbose get saving abbrev to /home/lxs/.npm/registry.npmjs.org/abbrev/.cache.json
+737 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+738 silly cache add args [ 'abbrev@1', null ]
+739 verbose cache add spec abbrev@1
+740 silly cache add parsed spec Result {
+740 silly cache add   raw: 'abbrev@1',
+740 silly cache add   scope: null,
+740 silly cache add   name: 'abbrev',
+740 silly cache add   rawSpec: '1',
+740 silly cache add   spec: '>=1.0.0 <2.0.0',
+740 silly cache add   type: 'range' }
+741 silly addNamed abbrev@>=1.0.0 <2.0.0
+742 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for abbrev
+743 silly addNameRange { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: false }
+744 silly mapToRegistry name abbrev
+745 silly mapToRegistry using default registry
+746 silly mapToRegistry registry https://registry.npmjs.org/
+747 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+748 verbose addNameRange registry:https://registry.npmjs.org/abbrev not in flight; fetching
+749 verbose get https://registry.npmjs.org/abbrev not expired, no request
+750 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: true }
+751 silly addNameRange versions [ 'abbrev',
+751 silly addNameRange   [ '1.0.3',
+751 silly addNameRange     '1.0.4',
+751 silly addNameRange     '1.0.5',
+751 silly addNameRange     '1.0.6',
+751 silly addNameRange     '1.0.7',
+751 silly addNameRange     '1.0.9',
+751 silly addNameRange     '1.1.0',
+751 silly addNameRange     '1.1.1' ] ]
+752 silly addNamed abbrev@1.1.1
+753 verbose addNamed "1.1.1" is a plain semver version for abbrev
+754 silly cache afterAdd abbrev@1.1.1
+755 verbose afterAdd /home/lxs/.npm/abbrev/1.1.1/package/package.json not in flight; writing
+756 verbose afterAdd /home/lxs/.npm/abbrev/1.1.1/package/package.json written
+757 silly loadAllDepsIntoIdealTree Finishing
+758 silly idealTree:prePrune lib
+758 silly idealTree:prePrune └─┬ gitbook-pdf@0.0.2
+758 silly idealTree:prePrune   ├── abbrev@1.1.1
+758 silly idealTree:prePrune   ├── adm-zip@0.2.1
+758 silly idealTree:prePrune   ├── commander@2.2.0
+758 silly idealTree:prePrune   ├─┬ config-chain@1.1.12
+758 silly idealTree:prePrune   │ └── ini@1.3.5
+758 silly idealTree:prePrune   ├── inherits@1.0.2
+758 silly idealTree:prePrune   ├── ini@1.1.0
+758 silly idealTree:prePrune   ├── kew@0.1.7
+758 silly idealTree:prePrune   ├── lodash@2.4.1
+758 silly idealTree:prePrune   ├── mkdirp@0.3.5
+758 silly idealTree:prePrune   ├── ncp@0.4.2
+758 silly idealTree:prePrune   ├── nopt@2.2.1
+758 silly idealTree:prePrune   ├── npmconf@0.0.24
+758 silly idealTree:prePrune   ├── once@1.1.1
+758 silly idealTree:prePrune   ├── osenv@0.0.3
+758 silly idealTree:prePrune   ├── phantomjs@1.9.7-5
+758 silly idealTree:prePrune   ├── proto-list@1.2.4
+758 silly idealTree:prePrune   ├── q@1.0.1
+758 silly idealTree:prePrune   ├── rimraf@2.2.8
+758 silly idealTree:prePrune   ├── semver@1.1.4
+758 silly idealTree:prePrune   └── which@1.0.9
+759 silly loadIdealTree Finishing
+760 silly currentTree lib
+761 silly idealTree lib
+761 silly idealTree └─┬ gitbook-pdf@0.0.2
+761 silly idealTree   ├── abbrev@1.1.1
+761 silly idealTree   ├── adm-zip@0.2.1
+761 silly idealTree   ├── commander@2.2.0
+761 silly idealTree   ├─┬ config-chain@1.1.12
+761 silly idealTree   │ └── ini@1.3.5
+761 silly idealTree   ├── inherits@1.0.2
+761 silly idealTree   ├── ini@1.1.0
+761 silly idealTree   ├── kew@0.1.7
+761 silly idealTree   ├── lodash@2.4.1
+761 silly idealTree   ├── mkdirp@0.3.5
+761 silly idealTree   ├── ncp@0.4.2
+761 silly idealTree   ├── nopt@2.2.1
+761 silly idealTree   ├── npmconf@0.0.24
+761 silly idealTree   ├── once@1.1.1
+761 silly idealTree   ├── osenv@0.0.3
+761 silly idealTree   ├── phantomjs@1.9.7-5
+761 silly idealTree   ├── proto-list@1.2.4
+761 silly idealTree   ├── q@1.0.1
+761 silly idealTree   ├── rimraf@2.2.8
+761 silly idealTree   ├── semver@1.1.4
+761 silly idealTree   └── which@1.0.9
+762 silly generateActionsToTake Starting
+763 silly install generateActionsToTake
+764 silly generateActionsToTake Finishing
+765 silly diffTrees action count 22
+766 silly diffTrees add abbrev@1.1.1
+767 silly diffTrees add adm-zip@0.2.1
+768 silly diffTrees add commander@2.2.0
+769 silly diffTrees add ini@1.3.5
+770 silly diffTrees add inherits@1.0.2
+771 silly diffTrees add ini@1.1.0
+772 silly diffTrees add kew@0.1.7
+773 silly diffTrees add lodash@2.4.1
+774 silly diffTrees add mkdirp@0.3.5
+775 silly diffTrees add ncp@0.4.2
+776 silly diffTrees add nopt@2.2.1
+777 silly diffTrees add once@1.1.1
+778 silly diffTrees add osenv@0.0.3
+779 silly diffTrees add proto-list@1.2.4
+780 silly diffTrees add config-chain@1.1.12
+781 silly diffTrees add q@1.0.1
+782 silly diffTrees add rimraf@2.2.8
+783 silly diffTrees add semver@1.1.4
+784 silly diffTrees add npmconf@0.0.24
+785 silly diffTrees add which@1.0.9
+786 silly diffTrees add phantomjs@1.9.7-5
+787 silly diffTrees add gitbook-pdf@0.0.2
+788 silly decomposeActions action count 176
+789 silly decomposeActions fetch abbrev@1.1.1
+790 silly decomposeActions extract abbrev@1.1.1
+791 silly decomposeActions test abbrev@1.1.1
+792 silly decomposeActions preinstall abbrev@1.1.1
+793 silly decomposeActions build abbrev@1.1.1
+794 silly decomposeActions install abbrev@1.1.1
+795 silly decomposeActions postinstall abbrev@1.1.1
+796 silly decomposeActions finalize abbrev@1.1.1
+797 silly decomposeActions fetch adm-zip@0.2.1
+798 silly decomposeActions extract adm-zip@0.2.1
+799 silly decomposeActions test adm-zip@0.2.1
+800 silly decomposeActions preinstall adm-zip@0.2.1
+801 silly decomposeActions build adm-zip@0.2.1
+802 silly decomposeActions install adm-zip@0.2.1
+803 silly decomposeActions postinstall adm-zip@0.2.1
+804 silly decomposeActions finalize adm-zip@0.2.1
+805 silly decomposeActions fetch commander@2.2.0
+806 silly decomposeActions extract commander@2.2.0
+807 silly decomposeActions test commander@2.2.0
+808 silly decomposeActions preinstall commander@2.2.0
+809 silly decomposeActions build commander@2.2.0
+810 silly decomposeActions install commander@2.2.0
+811 silly decomposeActions postinstall commander@2.2.0
+812 silly decomposeActions finalize commander@2.2.0
+813 silly decomposeActions fetch ini@1.3.5
+814 silly decomposeActions extract ini@1.3.5
+815 silly decomposeActions test ini@1.3.5
+816 silly decomposeActions preinstall ini@1.3.5
+817 silly decomposeActions build ini@1.3.5
+818 silly decomposeActions install ini@1.3.5
+819 silly decomposeActions postinstall ini@1.3.5
+820 silly decomposeActions finalize ini@1.3.5
+821 silly decomposeActions fetch inherits@1.0.2
+822 silly decomposeActions extract inherits@1.0.2
+823 silly decomposeActions test inherits@1.0.2
+824 silly decomposeActions preinstall inherits@1.0.2
+825 silly decomposeActions build inherits@1.0.2
+826 silly decomposeActions install inherits@1.0.2
+827 silly decomposeActions postinstall inherits@1.0.2
+828 silly decomposeActions finalize inherits@1.0.2
+829 silly decomposeActions fetch ini@1.1.0
+830 silly decomposeActions extract ini@1.1.0
+831 silly decomposeActions test ini@1.1.0
+832 silly decomposeActions preinstall ini@1.1.0
+833 silly decomposeActions build ini@1.1.0
+834 silly decomposeActions install ini@1.1.0
+835 silly decomposeActions postinstall ini@1.1.0
+836 silly decomposeActions finalize ini@1.1.0
+837 silly decomposeActions fetch kew@0.1.7
+838 silly decomposeActions extract kew@0.1.7
+839 silly decomposeActions test kew@0.1.7
+840 silly decomposeActions preinstall kew@0.1.7
+841 silly decomposeActions build kew@0.1.7
+842 silly decomposeActions install kew@0.1.7
+843 silly decomposeActions postinstall kew@0.1.7
+844 silly decomposeActions finalize kew@0.1.7
+845 silly decomposeActions fetch lodash@2.4.1
+846 silly decomposeActions extract lodash@2.4.1
+847 silly decomposeActions test lodash@2.4.1
+848 silly decomposeActions preinstall lodash@2.4.1
+849 silly decomposeActions build lodash@2.4.1
+850 silly decomposeActions install lodash@2.4.1
+851 silly decomposeActions postinstall lodash@2.4.1
+852 silly decomposeActions finalize lodash@2.4.1
+853 silly decomposeActions fetch mkdirp@0.3.5
+854 silly decomposeActions extract mkdirp@0.3.5
+855 silly decomposeActions test mkdirp@0.3.5
+856 silly decomposeActions preinstall mkdirp@0.3.5
+857 silly decomposeActions build mkdirp@0.3.5
+858 silly decomposeActions install mkdirp@0.3.5
+859 silly decomposeActions postinstall mkdirp@0.3.5
+860 silly decomposeActions finalize mkdirp@0.3.5
+861 silly decomposeActions fetch ncp@0.4.2
+862 silly decomposeActions extract ncp@0.4.2
+863 silly decomposeActions test ncp@0.4.2
+864 silly decomposeActions preinstall ncp@0.4.2
+865 silly decomposeActions build ncp@0.4.2
+866 silly decomposeActions install ncp@0.4.2
+867 silly decomposeActions postinstall ncp@0.4.2
+868 silly decomposeActions finalize ncp@0.4.2
+869 silly decomposeActions fetch nopt@2.2.1
+870 silly decomposeActions extract nopt@2.2.1
+871 silly decomposeActions test nopt@2.2.1
+872 silly decomposeActions preinstall nopt@2.2.1
+873 silly decomposeActions build nopt@2.2.1
+874 silly decomposeActions install nopt@2.2.1
+875 silly decomposeActions postinstall nopt@2.2.1
+876 silly decomposeActions finalize nopt@2.2.1
+877 silly decomposeActions fetch once@1.1.1
+878 silly decomposeActions extract once@1.1.1
+879 silly decomposeActions test once@1.1.1
+880 silly decomposeActions preinstall once@1.1.1
+881 silly decomposeActions build once@1.1.1
+882 silly decomposeActions install once@1.1.1
+883 silly decomposeActions postinstall once@1.1.1
+884 silly decomposeActions finalize once@1.1.1
+885 silly decomposeActions fetch osenv@0.0.3
+886 silly decomposeActions extract osenv@0.0.3
+887 silly decomposeActions test osenv@0.0.3
+888 silly decomposeActions preinstall osenv@0.0.3
+889 silly decomposeActions build osenv@0.0.3
+890 silly decomposeActions install osenv@0.0.3
+891 silly decomposeActions postinstall osenv@0.0.3
+892 silly decomposeActions finalize osenv@0.0.3
+893 silly decomposeActions fetch proto-list@1.2.4
+894 silly decomposeActions extract proto-list@1.2.4
+895 silly decomposeActions test proto-list@1.2.4
+896 silly decomposeActions preinstall proto-list@1.2.4
+897 silly decomposeActions build proto-list@1.2.4
+898 silly decomposeActions install proto-list@1.2.4
+899 silly decomposeActions postinstall proto-list@1.2.4
+900 silly decomposeActions finalize proto-list@1.2.4
+901 silly decomposeActions fetch config-chain@1.1.12
+902 silly decomposeActions extract config-chain@1.1.12
+903 silly decomposeActions test config-chain@1.1.12
+904 silly decomposeActions preinstall config-chain@1.1.12
+905 silly decomposeActions build config-chain@1.1.12
+906 silly decomposeActions install config-chain@1.1.12
+907 silly decomposeActions postinstall config-chain@1.1.12
+908 silly decomposeActions finalize config-chain@1.1.12
+909 silly decomposeActions fetch q@1.0.1
+910 silly decomposeActions extract q@1.0.1
+911 silly decomposeActions test q@1.0.1
+912 silly decomposeActions preinstall q@1.0.1
+913 silly decomposeActions build q@1.0.1
+914 silly decomposeActions install q@1.0.1
+915 silly decomposeActions postinstall q@1.0.1
+916 silly decomposeActions finalize q@1.0.1
+917 silly decomposeActions fetch rimraf@2.2.8
+918 silly decomposeActions extract rimraf@2.2.8
+919 silly decomposeActions test rimraf@2.2.8
+920 silly decomposeActions preinstall rimraf@2.2.8
+921 silly decomposeActions build rimraf@2.2.8
+922 silly decomposeActions install rimraf@2.2.8
+923 silly decomposeActions postinstall rimraf@2.2.8
+924 silly decomposeActions finalize rimraf@2.2.8
+925 silly decomposeActions fetch semver@1.1.4
+926 silly decomposeActions extract semver@1.1.4
+927 silly decomposeActions test semver@1.1.4
+928 silly decomposeActions preinstall semver@1.1.4
+929 silly decomposeActions build semver@1.1.4
+930 silly decomposeActions install semver@1.1.4
+931 silly decomposeActions postinstall semver@1.1.4
+932 silly decomposeActions finalize semver@1.1.4
+933 silly decomposeActions fetch npmconf@0.0.24
+934 silly decomposeActions extract npmconf@0.0.24
+935 silly decomposeActions test npmconf@0.0.24
+936 silly decomposeActions preinstall npmconf@0.0.24
+937 silly decomposeActions build npmconf@0.0.24
+938 silly decomposeActions install npmconf@0.0.24
+939 silly decomposeActions postinstall npmconf@0.0.24
+940 silly decomposeActions finalize npmconf@0.0.24
+941 silly decomposeActions fetch which@1.0.9
+942 silly decomposeActions extract which@1.0.9
+943 silly decomposeActions test which@1.0.9
+944 silly decomposeActions preinstall which@1.0.9
+945 silly decomposeActions build which@1.0.9
+946 silly decomposeActions install which@1.0.9
+947 silly decomposeActions postinstall which@1.0.9
+948 silly decomposeActions finalize which@1.0.9
+949 silly decomposeActions fetch phantomjs@1.9.7-5
+950 silly decomposeActions extract phantomjs@1.9.7-5
+951 silly decomposeActions test phantomjs@1.9.7-5
+952 silly decomposeActions preinstall phantomjs@1.9.7-5
+953 silly decomposeActions build phantomjs@1.9.7-5
+954 silly decomposeActions install phantomjs@1.9.7-5
+955 silly decomposeActions postinstall phantomjs@1.9.7-5
+956 silly decomposeActions finalize phantomjs@1.9.7-5
+957 silly decomposeActions fetch gitbook-pdf@0.0.2
+958 silly decomposeActions extract gitbook-pdf@0.0.2
+959 silly decomposeActions test gitbook-pdf@0.0.2
+960 silly decomposeActions preinstall gitbook-pdf@0.0.2
+961 silly decomposeActions build gitbook-pdf@0.0.2
+962 silly decomposeActions install gitbook-pdf@0.0.2
+963 silly decomposeActions postinstall gitbook-pdf@0.0.2
+964 silly decomposeActions finalize gitbook-pdf@0.0.2
+965 silly executeActions Starting
+966 silly install executeActions
+967 silly doSerial global-install 0
+968 silly doParallel fetch 22
+969 verbose lock using /home/lxs/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+970 silly doParallel extract 22
+971 silly extract abbrev@1.1.1
+972 silly extract adm-zip@0.2.1
+973 silly extract commander@2.2.0
+974 silly extract ini@1.3.5
+975 silly extract inherits@1.0.2
+976 silly extract ini@1.1.0
+977 silly extract kew@0.1.7
+978 silly extract lodash@2.4.1
+979 silly extract mkdirp@0.3.5
+980 silly extract ncp@0.4.2
+981 silly extract nopt@2.2.1
+982 silly extract once@1.1.1
+983 silly extract osenv@0.0.3
+984 silly extract proto-list@1.2.4
+985 silly extract config-chain@1.1.12
+986 silly extract q@1.0.1
+987 silly extract rimraf@2.2.8
+988 silly extract semver@1.1.4
+989 silly extract npmconf@0.0.24
+990 silly extract which@1.0.9
+991 silly extract phantomjs@1.9.7-5
+992 silly extract gitbook-pdf@0.0.2
+993 verbose unbuild lib/node_modules/.staging/abbrev-b6ba1e08
+994 verbose unbuild lib/node_modules/.staging/adm-zip-384b1e8d
+995 verbose unbuild lib/node_modules/.staging/ini-fc8ecdae
+996 verbose unbuild lib/node_modules/.staging/commander-084e24d5
+997 verbose unbuild lib/node_modules/.staging/inherits-f927a4ef
+998 verbose unbuild lib/node_modules/.staging/ini-1bb1b91b
+999 verbose unbuild lib/node_modules/.staging/kew-02044098
+1000 verbose unbuild lib/node_modules/.staging/lodash-517cc1c5
+1001 verbose unbuild lib/node_modules/.staging/mkdirp-2930ea2d
+1002 verbose unbuild lib/node_modules/.staging/once-5412e664
+1003 verbose unbuild lib/node_modules/.staging/osenv-e870052d
+1004 verbose unbuild lib/node_modules/.staging/proto-list-118e2e3e
+1005 verbose unbuild lib/node_modules/.staging/config-chain-3daf924d
+1006 verbose unbuild lib/node_modules/.staging/q-52f31a14
+1007 verbose unbuild lib/node_modules/.staging/npmconf-f98fb1c4
+1008 verbose unbuild lib/node_modules/.staging/ncp-a60844dc
+1009 verbose unbuild lib/node_modules/.staging/nopt-dd9de988
+1010 verbose unbuild lib/node_modules/.staging/rimraf-ba3ff0fe
+1011 verbose unbuild lib/node_modules/.staging/semver-6eaa9292
+1012 verbose unbuild lib/node_modules/.staging/which-d3d2cb77
+1013 verbose unbuild lib/node_modules/.staging/phantomjs-dfc117ff
+1014 verbose unbuild lib/node_modules/.staging/gitbook-pdf-04a28321
+1015 silly gentlyRm /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08 is being purged from base /usr/local
+1016 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08
+1017 silly gentlyRm /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d is being purged from base /usr/local
+1018 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d
+1019 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-fc8ecdae is being purged from base /usr/local
+1020 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-fc8ecdae
+1021 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-084e24d5 is being purged from base /usr/local
+1022 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-084e24d5
+1023 silly gentlyRm /usr/local/lib/node_modules/.staging/inherits-f927a4ef is being purged from base /usr/local
+1024 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inherits-f927a4ef
+1025 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-1bb1b91b is being purged from base /usr/local
+1026 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-1bb1b91b
+1027 silly gentlyRm /usr/local/lib/node_modules/.staging/kew-02044098 is being purged from base /usr/local
+1028 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/kew-02044098
+1029 silly gentlyRm /usr/local/lib/node_modules/.staging/lodash-517cc1c5 is being purged from base /usr/local
+1030 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lodash-517cc1c5
+1031 silly gentlyRm /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d is being purged from base /usr/local
+1032 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d
+1033 silly gentlyRm /usr/local/lib/node_modules/.staging/once-5412e664 is being purged from base /usr/local
+1034 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/once-5412e664
+1035 silly gentlyRm /usr/local/lib/node_modules/.staging/osenv-e870052d is being purged from base /usr/local
+1036 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/osenv-e870052d
+1037 silly gentlyRm /usr/local/lib/node_modules/.staging/proto-list-118e2e3e is being purged from base /usr/local
+1038 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/proto-list-118e2e3e
+1039 silly gentlyRm /usr/local/lib/node_modules/.staging/config-chain-3daf924d is being purged from base /usr/local
+1040 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/config-chain-3daf924d
+1041 silly gentlyRm /usr/local/lib/node_modules/.staging/q-52f31a14 is being purged from base /usr/local
+1042 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/q-52f31a14
+1043 silly gentlyRm /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4 is being purged from base /usr/local
+1044 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4
+1045 verbose tar unpack /home/lxs/.npm/abbrev/1.1.1/package.tgz
+1046 verbose tar unpacking to /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08
+1047 silly gentlyRm /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08 is being purged
+1048 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08
+1049 verbose tar unpack /home/lxs/.npm/adm-zip/0.2.1/package.tgz
+1050 verbose tar unpacking to /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d
+1051 silly gentlyRm /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d is being purged
+1052 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d
+1053 verbose tar unpack /home/lxs/.npm/ini/1.3.5/package.tgz
+1054 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ini-fc8ecdae
+1055 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-fc8ecdae is being purged
+1056 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-fc8ecdae
+1057 verbose tar unpack /home/lxs/.npm/commander/2.2.0/package.tgz
+1058 verbose tar unpacking to /usr/local/lib/node_modules/.staging/commander-084e24d5
+1059 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-084e24d5 is being purged
+1060 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-084e24d5
+1061 verbose tar unpack /home/lxs/.npm/inherits/1.0.2/package.tgz
+1062 verbose tar unpacking to /usr/local/lib/node_modules/.staging/inherits-f927a4ef
+1063 silly gentlyRm /usr/local/lib/node_modules/.staging/inherits-f927a4ef is being purged
+1064 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inherits-f927a4ef
+1065 verbose tar unpack /home/lxs/.npm/ini/1.1.0/package.tgz
+1066 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ini-1bb1b91b
+1067 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-1bb1b91b is being purged
+1068 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-1bb1b91b
+1069 verbose tar unpack /home/lxs/.npm/kew/0.1.7/package.tgz
+1070 verbose tar unpacking to /usr/local/lib/node_modules/.staging/kew-02044098
+1071 silly gentlyRm /usr/local/lib/node_modules/.staging/kew-02044098 is being purged
+1072 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/kew-02044098
+1073 verbose tar unpack /home/lxs/.npm/lodash/2.4.1/package.tgz
+1074 verbose tar unpacking to /usr/local/lib/node_modules/.staging/lodash-517cc1c5
+1075 silly gentlyRm /usr/local/lib/node_modules/.staging/lodash-517cc1c5 is being purged
+1076 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lodash-517cc1c5
+1077 verbose tar unpack /home/lxs/.npm/mkdirp/0.3.5/package.tgz
+1078 verbose tar unpacking to /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d
+1079 silly gentlyRm /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d is being purged
+1080 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d
+1081 silly gentlyRm /usr/local/lib/node_modules/.staging/ncp-a60844dc is being purged from base /usr/local
+1082 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ncp-a60844dc
+1083 silly gentlyRm /usr/local/lib/node_modules/.staging/nopt-dd9de988 is being purged from base /usr/local
+1084 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/nopt-dd9de988
+1085 verbose tar unpack /home/lxs/.npm/once/1.1.1/package.tgz
+1086 verbose tar unpacking to /usr/local/lib/node_modules/.staging/once-5412e664
+1087 silly gentlyRm /usr/local/lib/node_modules/.staging/once-5412e664 is being purged
+1088 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/once-5412e664
+1089 verbose tar unpack /home/lxs/.npm/osenv/0.0.3/package.tgz
+1090 verbose tar unpacking to /usr/local/lib/node_modules/.staging/osenv-e870052d
+1091 silly gentlyRm /usr/local/lib/node_modules/.staging/osenv-e870052d is being purged
+1092 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/osenv-e870052d
+1093 verbose tar unpack /home/lxs/.npm/proto-list/1.2.4/package.tgz
+1094 verbose tar unpacking to /usr/local/lib/node_modules/.staging/proto-list-118e2e3e
+1095 silly gentlyRm /usr/local/lib/node_modules/.staging/proto-list-118e2e3e is being purged
+1096 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/proto-list-118e2e3e
+1097 verbose tar unpack /home/lxs/.npm/config-chain/1.1.12/package.tgz
+1098 verbose tar unpacking to /usr/local/lib/node_modules/.staging/config-chain-3daf924d
+1099 silly gentlyRm /usr/local/lib/node_modules/.staging/config-chain-3daf924d is being purged
+1100 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/config-chain-3daf924d
+1101 verbose tar unpack /home/lxs/.npm/q/1.0.1/package.tgz
+1102 verbose tar unpacking to /usr/local/lib/node_modules/.staging/q-52f31a14
+1103 silly gentlyRm /usr/local/lib/node_modules/.staging/q-52f31a14 is being purged
+1104 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/q-52f31a14
+1105 silly gentlyRm /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe is being purged from base /usr/local
+1106 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe
+1107 silly gentlyRm /usr/local/lib/node_modules/.staging/semver-6eaa9292 is being purged from base /usr/local
+1108 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/semver-6eaa9292
+1109 verbose tar unpack /home/lxs/.npm/npmconf/0.0.24/package.tgz
+1110 verbose tar unpacking to /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4
+1111 silly gentlyRm /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4 is being purged
+1112 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4
+1113 silly gentlyRm /usr/local/lib/node_modules/.staging/which-d3d2cb77 is being purged from base /usr/local
+1114 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/which-d3d2cb77
+1115 silly gentlyRm /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff is being purged from base /usr/local
+1116 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff
+1117 silly gentlyRm /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321 is being purged from base /usr/local
+1118 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321
+1119 silly gunzTarPerm modes [ '755', '644' ]
+1120 silly gunzTarPerm modes [ '755', '644' ]
+1121 silly gunzTarPerm modes [ '755', '644' ]
+1122 silly gunzTarPerm modes [ '755', '644' ]
+1123 silly gunzTarPerm modes [ '755', '644' ]
+1124 silly gunzTarPerm modes [ '755', '644' ]
+1125 silly gunzTarPerm modes [ '755', '644' ]
+1126 silly gunzTarPerm modes [ '755', '644' ]
+1127 silly gunzTarPerm modes [ '755', '644' ]
+1128 verbose tar unpack /home/lxs/.npm/ncp/0.4.2/package.tgz
+1129 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ncp-a60844dc
+1130 silly gentlyRm /usr/local/lib/node_modules/.staging/ncp-a60844dc is being purged
+1131 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ncp-a60844dc
+1132 verbose tar unpack /home/lxs/.npm/nopt/2.2.1/package.tgz
+1133 verbose tar unpacking to /usr/local/lib/node_modules/.staging/nopt-dd9de988
+1134 silly gentlyRm /usr/local/lib/node_modules/.staging/nopt-dd9de988 is being purged
+1135 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/nopt-dd9de988
+1136 silly gunzTarPerm modes [ '755', '644' ]
+1137 silly gunzTarPerm modes [ '755', '644' ]
+1138 silly gunzTarPerm modes [ '755', '644' ]
+1139 silly gunzTarPerm modes [ '755', '644' ]
+1140 silly gunzTarPerm modes [ '755', '644' ]
+1141 verbose tar unpack /home/lxs/.npm/rimraf/2.2.8/package.tgz
+1142 verbose tar unpacking to /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe
+1143 silly gentlyRm /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe is being purged
+1144 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe
+1145 verbose tar unpack /home/lxs/.npm/semver/1.1.4/package.tgz
+1146 verbose tar unpacking to /usr/local/lib/node_modules/.staging/semver-6eaa9292
+1147 silly gentlyRm /usr/local/lib/node_modules/.staging/semver-6eaa9292 is being purged
+1148 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/semver-6eaa9292
+1149 silly gunzTarPerm modes [ '755', '644' ]
+1150 verbose tar unpack /home/lxs/.npm/which/1.0.9/package.tgz
+1151 verbose tar unpacking to /usr/local/lib/node_modules/.staging/which-d3d2cb77
+1152 silly gentlyRm /usr/local/lib/node_modules/.staging/which-d3d2cb77 is being purged
+1153 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/which-d3d2cb77
+1154 verbose tar unpack /home/lxs/.npm/phantomjs/1.9.7-5/package.tgz
+1155 verbose tar unpacking to /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff
+1156 silly gentlyRm /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff is being purged
+1157 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff
+1158 verbose tar unpack /home/lxs/.npm/gitbook-pdf/0.0.2/package.tgz
+1159 verbose tar unpacking to /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321
+1160 silly gentlyRm /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321 is being purged
+1161 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321
+1162 silly gunzTarPerm modes [ '755', '644' ]
+1163 silly gunzTarPerm modes [ '755', '644' ]
+1164 silly gunzTarPerm modes [ '755', '644' ]
+1165 silly gunzTarPerm modes [ '755', '644' ]
+1166 silly gunzTarPerm modes [ '755', '644' ]
+1167 silly gunzTarPerm modes [ '755', '644' ]
+1168 silly gunzTarPerm modes [ '755', '644' ]
+1169 silly gunzTarPerm extractEntry package.json
+1170 silly gunzTarPerm extractEntry package.json
+1171 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1172 silly gunzTarPerm extractEntry package.json
+1173 silly gunzTarPerm extractEntry package.json
+1174 silly gunzTarPerm extractEntry package.json
+1175 silly gunzTarPerm extractEntry package.json
+1176 silly gunzTarPerm extractEntry package.json
+1177 silly gunzTarPerm extractEntry package.json
+1178 silly gunzTarPerm extractEntry package.json
+1179 silly gunzTarPerm extractEntry package.json
+1180 silly gunzTarPerm extractEntry package.json
+1181 silly gunzTarPerm extractEntry package.json
+1182 silly gunzTarPerm extractEntry package.json
+1183 silly gunzTarPerm extractEntry package.json
+1184 silly gunzTarPerm extractEntry package.json
+1185 silly gunzTarPerm extractEntry package.json
+1186 silly gunzTarPerm extractEntry package.json
+1187 silly gunzTarPerm extractEntry package.json
+1188 silly gunzTarPerm extractEntry package.json
+1189 silly gunzTarPerm extractEntry package.json
+1190 silly gunzTarPerm extractEntry package.json
+1191 silly gunzTarPerm extractEntry package.json
+1192 silly gunzTarPerm extractEntry abbrev.js
+1193 silly gunzTarPerm extractEntry LICENSE
+1194 silly gunzTarPerm extractEntry README.md
+1195 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1196 silly gunzTarPerm extractEntry zipEntry.js
+1197 silly gunzTarPerm modified mode [ 'zipEntry.js', 438, 420 ]
+1198 silly gunzTarPerm extractEntry ini.js
+1199 silly gunzTarPerm extractEntry LICENSE
+1200 silly gunzTarPerm extractEntry index.js
+1201 silly gunzTarPerm extractEntry Readme.md
+1202 silly gunzTarPerm extractEntry README.md
+1203 silly gunzTarPerm extractEntry LICENSE
+1204 silly gunzTarPerm extractEntry README.md
+1205 silly gunzTarPerm extractEntry LICENSE
+1206 silly gunzTarPerm extractEntry .npmignore
+1207 silly gunzTarPerm extractEntry README.md
+1208 silly gunzTarPerm extractEntry README.md
+1209 silly gunzTarPerm extractEntry lodash.js
+1210 silly gunzTarPerm extractEntry README.md
+1211 silly gunzTarPerm extractEntry LICENSE
+1212 silly gunzTarPerm extractEntry README.md
+1213 silly gunzTarPerm extractEntry LICENSE
+1214 silly gunzTarPerm extractEntry README.md
+1215 silly gunzTarPerm extractEntry LICENSE
+1216 silly gunzTarPerm extractEntry index.js
+1217 silly gunzTarPerm extractEntry LICENCE
+1218 silly gunzTarPerm extractEntry README.md
+1219 silly gunzTarPerm extractEntry LICENSE
+1220 silly gunzTarPerm extractEntry q.js
+1221 silly gunzTarPerm extractEntry queue.js
+1222 silly gunzTarPerm extractEntry CONTRIBUTING.md
+1223 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+1224 silly gunzTarPerm extractEntry benchmark/scenarios.js
+1225 silly gunzTarPerm extractEntry .npmignore
+1226 silly gunzTarPerm extractEntry README.md
+1227 silly gunzTarPerm extractEntry .npmignore
+1228 silly gunzTarPerm extractEntry LICENSE
+1229 silly gunzTarPerm extractEntry .npmignore
+1230 silly gunzTarPerm extractEntry README.md
+1231 silly gunzTarPerm extractEntry .npmignore
+1232 silly gunzTarPerm extractEntry README.md
+1233 silly gunzTarPerm extractEntry README.md
+1234 silly gunzTarPerm extractEntry LICENSE
+1235 silly gunzTarPerm extractEntry README.md
+1236 silly gunzTarPerm extractEntry LICENSE
+1237 silly gunzTarPerm extractEntry README.md
+1238 silly gunzTarPerm extractEntry LICENSE
+1239 silly gunzTarPerm extractEntry .npmignore
+1240 silly gunzTarPerm extractEntry README.md
+1241 silly gunzTarPerm extractEntry .npmignore
+1242 silly gunzTarPerm extractEntry README.md
+1243 silly gunzTarPerm extractEntry README.md
+1244 silly gunzTarPerm extractEntry inherits.js
+1245 silly gunzTarPerm extractEntry ini.js
+1246 silly gunzTarPerm extractEntry test/bar.js
+1247 silly gunzTarPerm extractEntry proto-list.js
+1248 silly gunzTarPerm extractEntry test/basic.js
+1249 silly gunzTarPerm extractEntry sandbox.js
+1250 silly gunzTarPerm modified mode [ 'sandbox.js', 438, 420 ]
+1251 silly gunzTarPerm extractEntry adm-zip.js
+1252 silly gunzTarPerm modified mode [ 'adm-zip.js', 438, 420 ]
+1253 silly gunzTarPerm extractEntry README.md
+1254 silly gunzTarPerm extractEntry kew.js
+1255 silly gunzTarPerm extractEntry LICENSE.TXT
+1256 silly gunzTarPerm extractEntry test/chain.js
+1257 silly gunzTarPerm extractEntry test/context.js
+1258 silly gunzTarPerm extractEntry test/defer.js
+1259 silly gunzTarPerm extractEntry test/static.js
+1260 silly gunzTarPerm extractEntry LICENSE.txt
+1261 silly gunzTarPerm extractEntry once.js
+1262 silly gunzTarPerm extractEntry test/once.js
+1263 silly gunzTarPerm extractEntry osenv.js
+1264 silly gunzTarPerm extractEntry test/unix.js
+1265 silly gunzTarPerm extractEntry readme.markdown
+1266 silly gunzTarPerm extractEntry bin.js
+1267 silly gunzTarPerm extractEntry rimraf.js
+1268 silly gunzTarPerm extractEntry semver.js
+1269 silly gunzTarPerm extractEntry test.js
+1270 silly gunzTarPerm extractEntry bin/semver
+1271 silly gunzTarPerm extractEntry which.js
+1272 silly gunzTarPerm extractEntry bin/which
+1273 silly gunzTarPerm extractEntry LICENSE
+1274 silly gunzTarPerm extractEntry config-defs.js
+1275 silly gunzTarPerm extractEntry index.js
+1276 silly gunzTarPerm extractEntry examples/pow.js
+1277 silly gunzTarPerm extractEntry LICENSE
+1278 silly gunzTarPerm extractEntry bin/nopt.js
+1279 silly gunzTarPerm extractEntry .travis.yml
+1280 silly gunzTarPerm extractEntry bin/ncp
+1281 silly gunzTarPerm extractEntry install.js
+1282 silly gunzTarPerm extractEntry .jshintrc
+1283 silly gunzTarPerm extractEntry .travis.yml
+1284 silly gunzTarPerm extractEntry LICENSE.txt
+1285 silly gunzTarPerm extractEntry bin/phantomjs
+1286 silly gunzTarPerm extractEntry lib/phantomjs.js
+1287 silly gunzTarPerm extractEntry test/exit.js
+1288 silly gunzTarPerm extractEntry test/loadspeed.js
+1289 silly gunzTarPerm extractEntry test/tests.js
+1290 silly gunzTarPerm extractEntry LICENSE
+1291 silly gunzTarPerm extractEntry bin/gitbook-pdf.js
+1292 silly gunzTarPerm extractEntry lib/index.js
+1293 silly gunzTarPerm extractEntry lib/rasterize.js
+1294 silly gunzTarPerm extractEntry test/foo.js
+1295 silly gunzTarPerm extractEntry test/fixtures/foo.ini
+1296 silly gunzTarPerm extractEntry npmconf.js
+1297 silly gunzTarPerm extractEntry zipFile.js
+1298 silly gunzTarPerm modified mode [ 'zipFile.js', 438, 420 ]
+1299 silly gunzTarPerm extractEntry readme.markdown
+1300 silly gunzTarPerm extractEntry test/perm.js
+1301 silly gunzTarPerm extractEntry examples/my-program.js
+1302 silly gunzTarPerm extractEntry lib/nopt.js
+1303 silly gunzTarPerm extractEntry test/basic.js
+1304 silly gunzTarPerm extractEntry lib/ncp.js
+1305 silly gunzTarPerm extractEntry LICENSE.md
+1306 silly gunzTarPerm extractEntry test/windows.js
+1307 silly gunzTarPerm extractEntry dist/lodash.compat.js
+1308 silly gunzTarPerm extractEntry AUTHORS
+1309 silly gunzTarPerm extractEntry test/test-async.js
+1310 silly gunzTarPerm extractEntry test/00-setup.js
+1311 silly gunzTarPerm extractEntry test/basic.js
+1312 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+1313 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+1314 silly gunzTarPerm extractEntry methods/deflater.js
+1315 silly gunzTarPerm modified mode [ 'methods/deflater.js', 438, 420 ]
+1316 silly gunzTarPerm extractEntry test/perm_sync.js
+1317 silly gunzTarPerm extractEntry test/race.js
+1318 silly gunzTarPerm extractEntry test/ncp-test.js
+1319 silly gunzTarPerm extractEntry test/fixtures/src/a
+1320 silly gunzTarPerm extractEntry test/fixtures/src/b
+1321 silly gunzTarPerm extractEntry test/fixtures/src/c
+1322 silly gunzTarPerm extractEntry test/fixtures/src/d
+1323 silly gunzTarPerm extractEntry test/fixtures/src/e
+1324 silly gunzTarPerm extractEntry test/fixtures/src/f
+1325 silly gunzTarPerm extractEntry test/fixtures/src/sub/a
+1326 silly gunzTarPerm extractEntry test/fixtures/src/sub/b
+1327 silly gunzTarPerm extractEntry test/test-sync.js
+1328 silly gunzTarPerm extractEntry test/run.sh
+1329 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+1330 silly gunzTarPerm extractEntry methods/index.js
+1331 silly gunzTarPerm modified mode [ 'methods/index.js', 438, 420 ]
+1332 silly gunzTarPerm extractEntry methods/inflater.js
+1333 silly gunzTarPerm modified mode [ 'methods/inflater.js', 438, 420 ]
+1334 silly gunzTarPerm extractEntry test/rel.js
+1335 silly gunzTarPerm extractEntry test/builtin.js
+1336 silly gunzTarPerm extractEntry test/save.js
+1337 silly gunzTarPerm extractEntry test/setup.sh
+1338 silly gunzTarPerm extractEntry dist/lodash.js
+1339 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-084e24d5/node_modules is being purged
+1340 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-084e24d5/node_modules
+1341 silly gunzTarPerm extractEntry util/constants.js
+1342 silly gunzTarPerm modified mode [ 'util/constants.js', 438, 420 ]
+1343 silly gunzTarPerm extractEntry util/errors.js
+1344 silly gunzTarPerm modified mode [ 'util/errors.js', 438, 420 ]
+1345 silly gunzTarPerm extractEntry test/fixtures/builtin
+1346 silly gunzTarPerm extractEntry test/fixtures/globalconfig
+1347 silly gunzTarPerm extractEntry test/return.js
+1348 silly gunzTarPerm extractEntry test/clobber.js
+1349 silly gentlyRm /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08/node_modules is being purged
+1350 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08/node_modules
+1351 silly gentlyRm /usr/local/lib/node_modules/.staging/inherits-f927a4ef/node_modules is being purged
+1352 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inherits-f927a4ef/node_modules
+1353 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-fc8ecdae/node_modules is being purged
+1354 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-fc8ecdae/node_modules
+1355 silly gunzTarPerm extractEntry dist/lodash.min.js
+1356 silly gentlyRm /usr/local/lib/node_modules/.staging/config-chain-3daf924d/node_modules is being purged
+1357 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/config-chain-3daf924d/node_modules
+1358 silly gunzTarPerm extractEntry util/fattr.js
+1359 silly gunzTarPerm modified mode [ 'util/fattr.js', 438, 420 ]
+1360 silly gunzTarPerm extractEntry util/index.js
+1361 silly gunzTarPerm modified mode [ 'util/index.js', 438, 420 ]
+1362 silly gunzTarPerm extractEntry test/fixtures/userconfig
+1363 silly gunzTarPerm extractEntry test/root.js
+1364 silly gunzTarPerm extractEntry test/umask.js
+1365 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+1366 silly gentlyRm /usr/local/lib/node_modules/.staging/once-5412e664/node_modules is being purged
+1367 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/once-5412e664/node_modules
+1368 silly gentlyRm /usr/local/lib/node_modules/.staging/proto-list-118e2e3e/node_modules is being purged
+1369 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/proto-list-118e2e3e/node_modules
+1370 silly gentlyRm /usr/local/lib/node_modules/.staging/which-d3d2cb77/node_modules is being purged
+1371 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/which-d3d2cb77/node_modules
+1372 silly gunzTarPerm extractEntry util/utils.js
+1373 silly gunzTarPerm modified mode [ 'util/utils.js', 438, 420 ]
+1374 silly gunzTarPerm extractEntry headers/dataHeader.js
+1375 silly gunzTarPerm modified mode [ 'headers/dataHeader.js', 438, 420 ]
+1376 silly gunzTarPerm extractEntry headers/entryHeader.js
+1377 silly gunzTarPerm modified mode [ 'headers/entryHeader.js', 438, 420 ]
+1378 silly gunzTarPerm extractEntry headers/index.js
+1379 silly gunzTarPerm modified mode [ 'headers/index.js', 438, 420 ]
+1380 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+1381 silly gunzTarPerm extractEntry test/sync.js
+1382 silly gunzTarPerm extractEntry test/chmod.js
+1383 silly gentlyRm /usr/local/lib/node_modules/.staging/osenv-e870052d/node_modules is being purged
+1384 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/osenv-e870052d/node_modules
+1385 silly gentlyRm /usr/local/lib/node_modules/.staging/semver-6eaa9292/node_modules is being purged
+1386 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/semver-6eaa9292/node_modules
+1387 silly gunzTarPerm extractEntry headers/mainHeader.js
+1388 silly gunzTarPerm modified mode [ 'headers/mainHeader.js', 438, 420 ]
+1389 silly gunzTarPerm extractEntry .travis.yml
+1390 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+1391 silly gunzTarPerm extractEntry test/umask_sync.js
+1392 silly gunzTarPerm extractEntry test/return_sync.js
+1393 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-1bb1b91b/node_modules is being purged
+1394 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-1bb1b91b/node_modules
+1395 silly gentlyRm /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321/node_modules is being purged
+1396 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321/node_modules
+1397 silly gunzTarPerm extractEntry test/mkdirp.js
+1398 silly gunzTarPerm extractEntry .travis.yml
+1399 silly gentlyRm /usr/local/lib/node_modules/.staging/nopt-dd9de988/node_modules is being purged
+1400 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/nopt-dd9de988/node_modules
+1401 silly gentlyRm /usr/local/lib/node_modules/.staging/kew-02044098/node_modules is being purged
+1402 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/kew-02044098/node_modules
+1403 silly gentlyRm /usr/local/lib/node_modules/.staging/q-52f31a14/node_modules is being purged
+1404 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/q-52f31a14/node_modules
+1405 silly gentlyRm /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe/node_modules is being purged
+1406 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe/node_modules
+1407 silly gentlyRm /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff/node_modules is being purged
+1408 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff/node_modules
+1409 silly gentlyRm /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4/node_modules is being purged
+1410 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4/node_modules
+1411 silly gentlyRm /usr/local/lib/node_modules/.staging/ncp-a60844dc/node_modules is being purged
+1412 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ncp-a60844dc/node_modules
+1413 silly gentlyRm /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d/node_modules is being purged
+1414 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d/node_modules
+1415 silly gentlyRm /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d/node_modules is being purged
+1416 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d/node_modules
+1417 silly gentlyRm /usr/local/lib/node_modules/.staging/lodash-517cc1c5/node_modules is being purged
+1418 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lodash-517cc1c5/node_modules
+1419 silly doParallel preinstall 22
+1420 silly preinstall abbrev@1.1.1 /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08
+1421 info lifecycle abbrev@1.1.1~preinstall: abbrev@1.1.1
+1422 silly preinstall adm-zip@0.2.1 /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d
+1423 info lifecycle adm-zip@0.2.1~preinstall: adm-zip@0.2.1
+1424 silly preinstall commander@2.2.0 /usr/local/lib/node_modules/.staging/commander-084e24d5
+1425 info lifecycle commander@2.2.0~preinstall: commander@2.2.0
+1426 silly preinstall ini@1.3.5 /usr/local/lib/node_modules/.staging/ini-fc8ecdae
+1427 info lifecycle ini@1.3.5~preinstall: ini@1.3.5
+1428 silly preinstall inherits@1.0.2 /usr/local/lib/node_modules/.staging/inherits-f927a4ef
+1429 info lifecycle inherits@1.0.2~preinstall: inherits@1.0.2
+1430 silly preinstall ini@1.1.0 /usr/local/lib/node_modules/.staging/ini-1bb1b91b
+1431 info lifecycle ini@1.1.0~preinstall: ini@1.1.0
+1432 silly preinstall kew@0.1.7 /usr/local/lib/node_modules/.staging/kew-02044098
+1433 info lifecycle kew@0.1.7~preinstall: kew@0.1.7
+1434 silly preinstall lodash@2.4.1 /usr/local/lib/node_modules/.staging/lodash-517cc1c5
+1435 info lifecycle lodash@2.4.1~preinstall: lodash@2.4.1
+1436 silly preinstall mkdirp@0.3.5 /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d
+1437 info lifecycle mkdirp@0.3.5~preinstall: mkdirp@0.3.5
+1438 silly preinstall ncp@0.4.2 /usr/local/lib/node_modules/.staging/ncp-a60844dc
+1439 info lifecycle ncp@0.4.2~preinstall: ncp@0.4.2
+1440 silly preinstall nopt@2.2.1 /usr/local/lib/node_modules/.staging/nopt-dd9de988
+1441 info lifecycle nopt@2.2.1~preinstall: nopt@2.2.1
+1442 silly preinstall once@1.1.1 /usr/local/lib/node_modules/.staging/once-5412e664
+1443 info lifecycle once@1.1.1~preinstall: once@1.1.1
+1444 silly preinstall osenv@0.0.3 /usr/local/lib/node_modules/.staging/osenv-e870052d
+1445 info lifecycle osenv@0.0.3~preinstall: osenv@0.0.3
+1446 silly preinstall proto-list@1.2.4 /usr/local/lib/node_modules/.staging/proto-list-118e2e3e
+1447 info lifecycle proto-list@1.2.4~preinstall: proto-list@1.2.4
+1448 silly preinstall config-chain@1.1.12 /usr/local/lib/node_modules/.staging/config-chain-3daf924d
+1449 info lifecycle config-chain@1.1.12~preinstall: config-chain@1.1.12
+1450 silly preinstall q@1.0.1 /usr/local/lib/node_modules/.staging/q-52f31a14
+1451 info lifecycle q@1.0.1~preinstall: q@1.0.1
+1452 silly preinstall rimraf@2.2.8 /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe
+1453 info lifecycle rimraf@2.2.8~preinstall: rimraf@2.2.8
+1454 silly preinstall semver@1.1.4 /usr/local/lib/node_modules/.staging/semver-6eaa9292
+1455 info lifecycle semver@1.1.4~preinstall: semver@1.1.4
+1456 silly preinstall npmconf@0.0.24 /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4
+1457 info lifecycle npmconf@0.0.24~preinstall: npmconf@0.0.24
+1458 silly preinstall which@1.0.9 /usr/local/lib/node_modules/.staging/which-d3d2cb77
+1459 info lifecycle which@1.0.9~preinstall: which@1.0.9
+1460 silly preinstall phantomjs@1.9.7-5 /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff
+1461 info lifecycle phantomjs@1.9.7-5~preinstall: phantomjs@1.9.7-5
+1462 silly preinstall gitbook-pdf@0.0.2 /usr/local/lib/node_modules/.staging/gitbook-pdf-04a28321
+1463 info lifecycle gitbook-pdf@0.0.2~preinstall: gitbook-pdf@0.0.2
+1464 silly lifecycle abbrev@1.1.1~preinstall: no script for preinstall, continuing
+1465 silly lifecycle adm-zip@0.2.1~preinstall: no script for preinstall, continuing
+1466 silly lifecycle commander@2.2.0~preinstall: no script for preinstall, continuing
+1467 silly lifecycle ini@1.3.5~preinstall: no script for preinstall, continuing
+1468 silly lifecycle inherits@1.0.2~preinstall: no script for preinstall, continuing
+1469 silly lifecycle ini@1.1.0~preinstall: no script for preinstall, continuing
+1470 silly lifecycle kew@0.1.7~preinstall: no script for preinstall, continuing
+1471 silly lifecycle lodash@2.4.1~preinstall: no script for preinstall, continuing
+1472 silly lifecycle mkdirp@0.3.5~preinstall: no script for preinstall, continuing
+1473 silly lifecycle ncp@0.4.2~preinstall: no script for preinstall, continuing
+1474 silly lifecycle nopt@2.2.1~preinstall: no script for preinstall, continuing
+1475 silly lifecycle once@1.1.1~preinstall: no script for preinstall, continuing
+1476 silly lifecycle osenv@0.0.3~preinstall: no script for preinstall, continuing
+1477 silly lifecycle proto-list@1.2.4~preinstall: no script for preinstall, continuing
+1478 silly lifecycle config-chain@1.1.12~preinstall: no script for preinstall, continuing
+1479 silly lifecycle q@1.0.1~preinstall: no script for preinstall, continuing
+1480 silly lifecycle rimraf@2.2.8~preinstall: no script for preinstall, continuing
+1481 silly lifecycle semver@1.1.4~preinstall: no script for preinstall, continuing
+1482 silly lifecycle npmconf@0.0.24~preinstall: no script for preinstall, continuing
+1483 silly lifecycle which@1.0.9~preinstall: no script for preinstall, continuing
+1484 silly lifecycle phantomjs@1.9.7-5~preinstall: no script for preinstall, continuing
+1485 silly lifecycle gitbook-pdf@0.0.2~preinstall: no script for preinstall, continuing
+1486 silly doReverseSerial remove 0
+1487 silly doSerial move 0
+1488 silly doSerial finalize 22
+1489 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/abbrev
+1490 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/adm-zip
+1491 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/commander
+1492 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/config-chain/node_modules/ini
+1493 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/inherits
+1494 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/ini
+1495 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/kew
+1496 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/lodash
+1497 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/mkdirp
+1498 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/ncp
+1499 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/nopt
+1500 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/once
+1501 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/osenv
+1502 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/proto-list
+1503 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/config-chain
+1504 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/q
+1505 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/rimraf
+1506 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/semver
+1507 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/npmconf
+1508 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/which
+1509 silly finalize /usr/local/lib/node_modules/gitbook-pdf/node_modules/phantomjs
+1510 silly finalize /usr/local/lib/node_modules/gitbook-pdf
+1511 silly doSerial build 22
+1512 silly build abbrev@1.1.1
+1513 info linkStuff abbrev@1.1.1
+1514 silly linkStuff abbrev@1.1.1 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1515 silly linkStuff abbrev@1.1.1 is part of a global install
+1516 silly linkStuff abbrev@1.1.1 is installed into a global node_modules
+1517 verbose linkBins abbrev@1.1.1
+1518 verbose linkMans abbrev@1.1.1
+1519 silly build adm-zip@0.2.1
+1520 info linkStuff adm-zip@0.2.1
+1521 silly linkStuff adm-zip@0.2.1 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1522 silly linkStuff adm-zip@0.2.1 is part of a global install
+1523 silly linkStuff adm-zip@0.2.1 is installed into a global node_modules
+1524 verbose linkBins adm-zip@0.2.1
+1525 verbose linkMans adm-zip@0.2.1
+1526 silly build commander@2.2.0
+1527 info linkStuff commander@2.2.0
+1528 silly linkStuff commander@2.2.0 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1529 silly linkStuff commander@2.2.0 is part of a global install
+1530 silly linkStuff commander@2.2.0 is installed into a global node_modules
+1531 verbose linkBins commander@2.2.0
+1532 verbose linkMans commander@2.2.0
+1533 silly build ini@1.3.5
+1534 info linkStuff ini@1.3.5
+1535 silly linkStuff ini@1.3.5 has /usr/local/lib/node_modules/gitbook-pdf/node_modules/config-chain/node_modules as its parent node_modules
+1536 silly linkStuff ini@1.3.5 is part of a global install
+1537 silly linkStuff ini@1.3.5 is installed into a global node_modules
+1538 verbose linkBins ini@1.3.5
+1539 verbose linkMans ini@1.3.5
+1540 silly build inherits@1.0.2
+1541 info linkStuff inherits@1.0.2
+1542 silly linkStuff inherits@1.0.2 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1543 silly linkStuff inherits@1.0.2 is part of a global install
+1544 silly linkStuff inherits@1.0.2 is installed into a global node_modules
+1545 verbose linkBins inherits@1.0.2
+1546 verbose linkMans inherits@1.0.2
+1547 silly build ini@1.1.0
+1548 info linkStuff ini@1.1.0
+1549 silly linkStuff ini@1.1.0 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1550 silly linkStuff ini@1.1.0 is part of a global install
+1551 silly linkStuff ini@1.1.0 is installed into a global node_modules
+1552 verbose linkBins ini@1.1.0
+1553 verbose linkMans ini@1.1.0
+1554 silly build kew@0.1.7
+1555 info linkStuff kew@0.1.7
+1556 silly linkStuff kew@0.1.7 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1557 silly linkStuff kew@0.1.7 is part of a global install
+1558 silly linkStuff kew@0.1.7 is installed into a global node_modules
+1559 verbose linkBins kew@0.1.7
+1560 verbose linkMans kew@0.1.7
+1561 silly build lodash@2.4.1
+1562 info linkStuff lodash@2.4.1
+1563 silly linkStuff lodash@2.4.1 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1564 silly linkStuff lodash@2.4.1 is part of a global install
+1565 silly linkStuff lodash@2.4.1 is installed into a global node_modules
+1566 verbose linkBins lodash@2.4.1
+1567 verbose linkMans lodash@2.4.1
+1568 silly build mkdirp@0.3.5
+1569 info linkStuff mkdirp@0.3.5
+1570 silly linkStuff mkdirp@0.3.5 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1571 silly linkStuff mkdirp@0.3.5 is part of a global install
+1572 silly linkStuff mkdirp@0.3.5 is installed into a global node_modules
+1573 verbose linkBins mkdirp@0.3.5
+1574 verbose linkMans mkdirp@0.3.5
+1575 silly build ncp@0.4.2
+1576 info linkStuff ncp@0.4.2
+1577 silly linkStuff ncp@0.4.2 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1578 silly linkStuff ncp@0.4.2 is part of a global install
+1579 silly linkStuff ncp@0.4.2 is installed into a global node_modules
+1580 verbose linkBins ncp@0.4.2
+1581 verbose link bins [ { ncp: './bin/ncp' },
+1581 verbose link bins   '/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin',
+1581 verbose link bins   false ]
+1582 verbose linkMans ncp@0.4.2
+1583 silly gentlyRm /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/ncp is being purged
+1584 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/ncp
+1585 silly build nopt@2.2.1
+1586 info linkStuff nopt@2.2.1
+1587 silly linkStuff nopt@2.2.1 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1588 silly linkStuff nopt@2.2.1 is part of a global install
+1589 silly linkStuff nopt@2.2.1 is installed into a global node_modules
+1590 verbose linkBins nopt@2.2.1
+1591 verbose link bins [ { nopt: './bin/nopt.js' },
+1591 verbose link bins   '/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin',
+1591 verbose link bins   false ]
+1592 verbose linkMans nopt@2.2.1
+1593 silly gentlyRm /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/nopt is being purged
+1594 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/nopt
+1595 silly build once@1.1.1
+1596 info linkStuff once@1.1.1
+1597 silly linkStuff once@1.1.1 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1598 silly linkStuff once@1.1.1 is part of a global install
+1599 silly linkStuff once@1.1.1 is installed into a global node_modules
+1600 verbose linkBins once@1.1.1
+1601 verbose linkMans once@1.1.1
+1602 silly build osenv@0.0.3
+1603 info linkStuff osenv@0.0.3
+1604 silly linkStuff osenv@0.0.3 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1605 silly linkStuff osenv@0.0.3 is part of a global install
+1606 silly linkStuff osenv@0.0.3 is installed into a global node_modules
+1607 verbose linkBins osenv@0.0.3
+1608 verbose linkMans osenv@0.0.3
+1609 silly build proto-list@1.2.4
+1610 info linkStuff proto-list@1.2.4
+1611 silly linkStuff proto-list@1.2.4 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1612 silly linkStuff proto-list@1.2.4 is part of a global install
+1613 silly linkStuff proto-list@1.2.4 is installed into a global node_modules
+1614 verbose linkBins proto-list@1.2.4
+1615 verbose linkMans proto-list@1.2.4
+1616 silly build config-chain@1.1.12
+1617 info linkStuff config-chain@1.1.12
+1618 silly linkStuff config-chain@1.1.12 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1619 silly linkStuff config-chain@1.1.12 is part of a global install
+1620 silly linkStuff config-chain@1.1.12 is installed into a global node_modules
+1621 verbose linkBins config-chain@1.1.12
+1622 verbose linkMans config-chain@1.1.12
+1623 silly build q@1.0.1
+1624 info linkStuff q@1.0.1
+1625 silly linkStuff q@1.0.1 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1626 silly linkStuff q@1.0.1 is part of a global install
+1627 silly linkStuff q@1.0.1 is installed into a global node_modules
+1628 verbose linkBins q@1.0.1
+1629 verbose linkMans q@1.0.1
+1630 silly build rimraf@2.2.8
+1631 info linkStuff rimraf@2.2.8
+1632 silly linkStuff rimraf@2.2.8 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1633 silly linkStuff rimraf@2.2.8 is part of a global install
+1634 silly linkStuff rimraf@2.2.8 is installed into a global node_modules
+1635 verbose linkBins rimraf@2.2.8
+1636 verbose link bins [ { rimraf: './bin.js' },
+1636 verbose link bins   '/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin',
+1636 verbose link bins   false ]
+1637 verbose linkMans rimraf@2.2.8
+1638 silly gentlyRm /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/rimraf is being purged
+1639 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/rimraf
+1640 silly build semver@1.1.4
+1641 info linkStuff semver@1.1.4
+1642 silly linkStuff semver@1.1.4 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1643 silly linkStuff semver@1.1.4 is part of a global install
+1644 silly linkStuff semver@1.1.4 is installed into a global node_modules
+1645 verbose linkBins semver@1.1.4
+1646 verbose link bins [ { semver: './bin/semver' },
+1646 verbose link bins   '/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin',
+1646 verbose link bins   false ]
+1647 verbose linkMans semver@1.1.4
+1648 silly gentlyRm /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/semver is being purged
+1649 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/semver
+1650 silly build npmconf@0.0.24
+1651 info linkStuff npmconf@0.0.24
+1652 silly linkStuff npmconf@0.0.24 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1653 silly linkStuff npmconf@0.0.24 is part of a global install
+1654 silly linkStuff npmconf@0.0.24 is installed into a global node_modules
+1655 verbose linkBins npmconf@0.0.24
+1656 verbose linkMans npmconf@0.0.24
+1657 silly build which@1.0.9
+1658 info linkStuff which@1.0.9
+1659 silly linkStuff which@1.0.9 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1660 silly linkStuff which@1.0.9 is part of a global install
+1661 silly linkStuff which@1.0.9 is installed into a global node_modules
+1662 verbose linkBins which@1.0.9
+1663 verbose link bins [ { which: './bin/which' },
+1663 verbose link bins   '/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin',
+1663 verbose link bins   false ]
+1664 verbose linkMans which@1.0.9
+1665 silly gentlyRm /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/which is being purged
+1666 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/which
+1667 silly build phantomjs@1.9.7-5
+1668 info linkStuff phantomjs@1.9.7-5
+1669 silly linkStuff phantomjs@1.9.7-5 has /usr/local/lib/node_modules/gitbook-pdf/node_modules as its parent node_modules
+1670 silly linkStuff phantomjs@1.9.7-5 is part of a global install
+1671 silly linkStuff phantomjs@1.9.7-5 is installed into a global node_modules
+1672 verbose linkBins phantomjs@1.9.7-5
+1673 verbose link bins [ { phantomjs: './bin/phantomjs' },
+1673 verbose link bins   '/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin',
+1673 verbose link bins   false ]
+1674 verbose linkMans phantomjs@1.9.7-5
+1675 silly gentlyRm /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/phantomjs is being purged
+1676 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin/phantomjs
+1677 silly build gitbook-pdf@0.0.2
+1678 info linkStuff gitbook-pdf@0.0.2
+1679 silly linkStuff gitbook-pdf@0.0.2 has /usr/local/lib/node_modules as its parent node_modules
+1680 silly linkStuff gitbook-pdf@0.0.2 is part of a global install
+1681 silly linkStuff gitbook-pdf@0.0.2 is installed into a global node_modules
+1682 silly linkStuff gitbook-pdf@0.0.2 is installed into the top-level global node_modules
+1683 verbose linkBins gitbook-pdf@0.0.2
+1684 verbose link bins [ { 'gitbook-pdf': './bin/gitbook-pdf.js' },
+1684 verbose link bins   '/usr/local/bin',
+1684 verbose link bins   true ]
+1685 verbose linkMans gitbook-pdf@0.0.2
+1686 silly gentlyRm /usr/local/bin/gitbook-pdf is being gently removed
+1687 silly doSerial global-link 0
+1688 silly doParallel update-linked 0
+1689 silly doSerial install 22
+1690 silly install abbrev@1.1.1 /usr/local/lib/node_modules/.staging/abbrev-b6ba1e08
+1691 info lifecycle abbrev@1.1.1~install: abbrev@1.1.1
+1692 silly lifecycle abbrev@1.1.1~install: no script for install, continuing
+1693 silly install adm-zip@0.2.1 /usr/local/lib/node_modules/.staging/adm-zip-384b1e8d
+1694 info lifecycle adm-zip@0.2.1~install: adm-zip@0.2.1
+1695 silly lifecycle adm-zip@0.2.1~install: no script for install, continuing
+1696 silly install commander@2.2.0 /usr/local/lib/node_modules/.staging/commander-084e24d5
+1697 info lifecycle commander@2.2.0~install: commander@2.2.0
+1698 silly lifecycle commander@2.2.0~install: no script for install, continuing
+1699 silly install ini@1.3.5 /usr/local/lib/node_modules/.staging/ini-fc8ecdae
+1700 info lifecycle ini@1.3.5~install: ini@1.3.5
+1701 silly lifecycle ini@1.3.5~install: no script for install, continuing
+1702 silly install inherits@1.0.2 /usr/local/lib/node_modules/.staging/inherits-f927a4ef
+1703 info lifecycle inherits@1.0.2~install: inherits@1.0.2
+1704 silly lifecycle inherits@1.0.2~install: no script for install, continuing
+1705 silly install ini@1.1.0 /usr/local/lib/node_modules/.staging/ini-1bb1b91b
+1706 info lifecycle ini@1.1.0~install: ini@1.1.0
+1707 silly lifecycle ini@1.1.0~install: no script for install, continuing
+1708 silly install kew@0.1.7 /usr/local/lib/node_modules/.staging/kew-02044098
+1709 info lifecycle kew@0.1.7~install: kew@0.1.7
+1710 silly lifecycle kew@0.1.7~install: no script for install, continuing
+1711 silly install lodash@2.4.1 /usr/local/lib/node_modules/.staging/lodash-517cc1c5
+1712 info lifecycle lodash@2.4.1~install: lodash@2.4.1
+1713 silly lifecycle lodash@2.4.1~install: no script for install, continuing
+1714 silly install mkdirp@0.3.5 /usr/local/lib/node_modules/.staging/mkdirp-2930ea2d
+1715 info lifecycle mkdirp@0.3.5~install: mkdirp@0.3.5
+1716 silly lifecycle mkdirp@0.3.5~install: no script for install, continuing
+1717 silly install ncp@0.4.2 /usr/local/lib/node_modules/.staging/ncp-a60844dc
+1718 info lifecycle ncp@0.4.2~install: ncp@0.4.2
+1719 silly lifecycle ncp@0.4.2~install: no script for install, continuing
+1720 silly install nopt@2.2.1 /usr/local/lib/node_modules/.staging/nopt-dd9de988
+1721 info lifecycle nopt@2.2.1~install: nopt@2.2.1
+1722 silly lifecycle nopt@2.2.1~install: no script for install, continuing
+1723 silly install once@1.1.1 /usr/local/lib/node_modules/.staging/once-5412e664
+1724 info lifecycle once@1.1.1~install: once@1.1.1
+1725 silly lifecycle once@1.1.1~install: no script for install, continuing
+1726 silly install osenv@0.0.3 /usr/local/lib/node_modules/.staging/osenv-e870052d
+1727 info lifecycle osenv@0.0.3~install: osenv@0.0.3
+1728 silly lifecycle osenv@0.0.3~install: no script for install, continuing
+1729 silly install proto-list@1.2.4 /usr/local/lib/node_modules/.staging/proto-list-118e2e3e
+1730 info lifecycle proto-list@1.2.4~install: proto-list@1.2.4
+1731 silly lifecycle proto-list@1.2.4~install: no script for install, continuing
+1732 silly install config-chain@1.1.12 /usr/local/lib/node_modules/.staging/config-chain-3daf924d
+1733 info lifecycle config-chain@1.1.12~install: config-chain@1.1.12
+1734 silly lifecycle config-chain@1.1.12~install: no script for install, continuing
+1735 silly install q@1.0.1 /usr/local/lib/node_modules/.staging/q-52f31a14
+1736 info lifecycle q@1.0.1~install: q@1.0.1
+1737 silly lifecycle q@1.0.1~install: no script for install, continuing
+1738 silly install rimraf@2.2.8 /usr/local/lib/node_modules/.staging/rimraf-ba3ff0fe
+1739 info lifecycle rimraf@2.2.8~install: rimraf@2.2.8
+1740 silly lifecycle rimraf@2.2.8~install: no script for install, continuing
+1741 silly install semver@1.1.4 /usr/local/lib/node_modules/.staging/semver-6eaa9292
+1742 info lifecycle semver@1.1.4~install: semver@1.1.4
+1743 silly lifecycle semver@1.1.4~install: no script for install, continuing
+1744 silly install npmconf@0.0.24 /usr/local/lib/node_modules/.staging/npmconf-f98fb1c4
+1745 info lifecycle npmconf@0.0.24~install: npmconf@0.0.24
+1746 silly lifecycle npmconf@0.0.24~install: no script for install, continuing
+1747 silly install which@1.0.9 /usr/local/lib/node_modules/.staging/which-d3d2cb77
+1748 info lifecycle which@1.0.9~install: which@1.0.9
+1749 silly lifecycle which@1.0.9~install: no script for install, continuing
+1750 silly install phantomjs@1.9.7-5 /usr/local/lib/node_modules/.staging/phantomjs-dfc117ff
+1751 info lifecycle phantomjs@1.9.7-5~install: phantomjs@1.9.7-5
+1752 verbose lifecycle phantomjs@1.9.7-5~install: unsafe-perm in lifecycle false
+1753 verbose lifecycle phantomjs@1.9.7-5~install: PATH: /usr/share/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/gitbook-pdf/node_modules/phantomjs/node_modules/.bin:/usr/local/lib/node_modules/gitbook-pdf/node_modules/.bin:/usr/local/lib/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+1754 verbose lifecycle phantomjs@1.9.7-5~install: CWD: /usr/local/lib/node_modules/gitbook-pdf/node_modules/phantomjs
+1755 silly lifecycle phantomjs@1.9.7-5~install: Args: [ '-c', 'node install.js' ]
+1756 silly lifecycle phantomjs@1.9.7-5~install: Returned: code: 1  signal: null
+1757 info lifecycle phantomjs@1.9.7-5~install: Failed to exec install script
+1758 verbose unlock done using /home/lxs/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+1759 silly rollbackFailedOptional Starting
+1760 silly rollbackFailedOptional Finishing
+1761 silly runTopLevelLifecycles Starting
+1762 silly runTopLevelLifecycles Finishing
+1763 silly install printInstalled
+1764 verbose stack Error: phantomjs@1.9.7-5 install: `node install.js`
+1764 verbose stack Exit status 1
+1764 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+1764 verbose stack     at emitTwo (events.js:126:13)
+1764 verbose stack     at EventEmitter.emit (events.js:214:7)
+1764 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+1764 verbose stack     at emitTwo (events.js:126:13)
+1764 verbose stack     at ChildProcess.emit (events.js:214:7)
+1764 verbose stack     at maybeClose (internal/child_process.js:925:16)
+1764 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+1765 verbose pkgid phantomjs@1.9.7-5
+1766 verbose cwd /home/lxs/Desktop/notes
+1767 error Linux 4.15.0-55-generic
+1768 error argv "/usr/bin/node" "/usr/bin/npm" "install" "gitbook-pdf" "-g"
+1769 error node v8.10.0
+1770 error npm  v3.5.2
+1771 error code ELIFECYCLE
+1772 error phantomjs@1.9.7-5 install: `node install.js`
+1772 error Exit status 1
+1773 error Failed at the phantomjs@1.9.7-5 install script 'node install.js'.
+1773 error Make sure you have the latest version of node.js and npm installed.
+1773 error If you do, this is most likely a problem with the phantomjs package,
+1773 error not with npm itself.
+1773 error Tell the author that this fails on your system:
+1773 error     node install.js
+1773 error You can get information on how to open an issue for this project with:
+1773 error     npm bugs phantomjs
+1773 error Or if that isn't available, you can get their info via:
+1773 error     npm owner ls phantomjs
+1773 error There is likely additional logging output above.
+1774 verbose exit [ 1, true ]
